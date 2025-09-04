@@ -1,13 +1,12 @@
-// Scheduler.java (añade “Sin prácticas” por asignatura)
+// Scheduler.java (resumen ancho con control deslizante + reubicación del checkbox)
 // -----------------------------------------------------------------------------
-// Nuevo valor añadido:
-// • Checkbox por asignatura (“SP”: Sin prácticas) para excluir prácticas de esa
-//   asignatura al calcular el horario (aplica a “Prácticas” y “Prácticas aula”).
-// • Integrado con ambas modalidades de selección:
-//     - Bloqueo de subgrupo (teoría+prácticas mismo subgrupo)
-//     - Mezcla por tipo (Teoría / Prácticas / Prácticas aula)
-// • Sin fricción: si una asignatura queda sin sesiones tras excluir prácticas,
-//   se elimina del dominio de búsqueda automáticamente.
+// Cambios clave:
+// • El área de RESUMEN es un panel derecho en un JSplitPane horizontal (control
+//   deslizante). Por defecto ocupa ~65% del ancho, ajustable por el usuario.
+// • El checkbox “Bloquear teoría+prácticas al mismo subgrupo” se coloca DEBAJO
+//   de los checks de elección de día libre.
+// • Se mantienen: días libres múltiples, botón “Calcular horario”, tabla ancha,
+//   y (opcional) exclusión de prácticas por asignatura si ya integraste “SP”.
 // -----------------------------------------------------------------------------
 
 import java.awt.*;
@@ -50,7 +49,7 @@ public final class Scheduler {
     private final Map<DayOfWeek, JCheckBox> freeDayChecks = new LinkedHashMap<>();
     private JCheckBox sameSubgroupBox;
 
-    // NUEVO: mapa de “sin prácticas” por asignatura
+    // (Opcional) Si usas “SP: sin prácticas” por asignatura, declara y usa este mapa:
     private final Map<String, JCheckBox> skipPracticesBySubject = new HashMap<>();
 
     private static final IntRef combosTested = new IntRef(0);
@@ -69,7 +68,7 @@ public final class Scheduler {
         SwingUtilities.invokeLater(() -> {
             try { new Scheduler(finalFont); }
             catch (Exception e) {
-                System.err.println("Error al iniciar Scheduler: " + e.getMessage());
+                System.err.println("Error al iniciar Cuadreitor: " + e.getMessage());
                 e.printStackTrace(System.err);
                 System.exit(1);
             }
@@ -92,14 +91,15 @@ public final class Scheduler {
 
     /* ---------------------- GUI ---------------------- */
     private void initGui(final Font font) {
-        frame = new JFrame("Scheduler");
+        frame = new JFrame("Cuadreitor v3.1");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setLayout(new BorderLayout());
 
         /* -------- Panel izquierdo: asignaturas + opciones -------- */
         JPanel leftPanel = new JPanel(new BorderLayout());
+        leftPanel.setMinimumSize(new Dimension(260, 300));
 
-        // Cabecera + opciones
+        // Cabecera + opciones en vertical
         JPanel north = new JPanel();
         north.setLayout(new BoxLayout(north, BoxLayout.Y_AXIS));
 
@@ -108,38 +108,41 @@ public final class Scheduler {
         selLbl.setAlignmentX(Component.LEFT_ALIGNMENT);
         north.add(selLbl);
 
-        JPanel opts = new JPanel(new FlowLayout(FlowLayout.LEFT));
-        opts.setAlignmentX(Component.LEFT_ALIGNMENT);
+        // Fila: DÍAS LIBRES (Lun–Vie)
+        JPanel daysRow = new JPanel(new FlowLayout(FlowLayout.LEFT, 6, 0));
+        daysRow.add(new JLabel("Días libres:"));
+        crearCheckDia(daysRow, "Lun", DayOfWeek.MONDAY, font);
+        crearCheckDia(daysRow, "Mar", DayOfWeek.TUESDAY, font);
+        crearCheckDia(daysRow, "Mié", DayOfWeek.WEDNESDAY, font);
+        crearCheckDia(daysRow, "Jue", DayOfWeek.THURSDAY, font);
+        crearCheckDia(daysRow, "Vie", DayOfWeek.FRIDAY, font);
+        daysRow.setAlignmentX(Component.LEFT_ALIGNMENT);
+        north.add(daysRow);
 
-        // Días libres múltiples (Lun–Vie)
-        opts.add(new JLabel("Días libres:"));
-        crearCheckDia(opts, "Lun", DayOfWeek.MONDAY, font);
-        crearCheckDia(opts, "Mar", DayOfWeek.TUESDAY, font);
-        crearCheckDia(opts, "Mié", DayOfWeek.WEDNESDAY, font);
-        crearCheckDia(opts, "Jue", DayOfWeek.THURSDAY, font);
-        crearCheckDia(opts, "Vie", DayOfWeek.FRIDAY, font);
-
-        // Semestre (obligatorio)
-        opts.add(new JLabel("   Semestre:"));
-        semesterCombo = new JComboBox<>(new String[]{"1","2"});
-        semesterCombo.setFont(font);
-        opts.add(semesterCombo);
-
-        // Bloqueo teoría+prácticas al mismo subgrupo
+        // *** NUEVO: checkbox de bloqueo debajo de los checks de día libre ***
         sameSubgroupBox = new JCheckBox("Bloquear teoría+prácticas al mismo subgrupo");
         sameSubgroupBox.setFont(font);
+        sameSubgroupBox.setAlignmentX(Component.LEFT_ALIGNMENT);
         sameSubgroupBox.setToolTipText("Si se activa, se elige un único subgrupo por asignatura para todos los tipos.");
-        opts.add(sameSubgroupBox);
+        north.add(sameSubgroupBox);
 
-        north.add(opts);
+        // Fila: Semestre
+        JPanel semRow = new JPanel(new FlowLayout(FlowLayout.LEFT, 6, 2));
+        semRow.add(new JLabel("Semestre:"));
+        semesterCombo = new JComboBox<>(new String[]{"1","2"});
+        semesterCombo.setFont(font);
+        semRow.add(semesterCombo);
+        semRow.setAlignmentX(Component.LEFT_ALIGNMENT);
+        north.add(semRow);
+
         leftPanel.add(north, BorderLayout.NORTH);
 
-        // Botonera de asignaturas (NO estirada) + checkbox “SP”
+        // Botonera de asignaturas (NO estirada) + (opcional) mini-check “SP”
         JPanel buttonPanel = new JPanel();
         buttonPanel.setLayout(new BoxLayout(buttonPanel, BoxLayout.Y_AXIS));
         subjectButtons = new ArrayList<>();
 
-        // Ordenar por semestre → curso → nombre alfabético
+        // Ordenar por semestre → curso → nombre
         List<Subject> sorted = new ArrayList<>(allSubjects);
         Collator coll = Collator.getInstance(new Locale("es", "ES"));
         sorted.sort(Comparator
@@ -148,7 +151,7 @@ public final class Scheduler {
                 .thenComparing(Subject::name, coll));
 
         int lastSem = -1, lastCurso = -1;
-        JPanel gridCursoPanel = null; // panel actual (2 columnas, sin estirar)
+        JPanel gridCursoPanel = null;
         int gridRow = 0, gridCol = 0;
 
         for (Subject subj : sorted) {
@@ -171,26 +174,22 @@ public final class Scheduler {
             }
 
             String label = subj.name();
-
-            // Botón principal (selección de asignatura)
             JToggleButton btn = new JToggleButton(label);
             btn.setFont(font);
             btn.setActionCommand(subj.name());
             btn.setMargin(new Insets(2, 6, 2, 6));
             btn.setFocusPainted(false);
 
-            // NUEVO: checkbox “SP” (sin prácticas)
+            // (Opcional) mini-check SP por asignatura
             JCheckBox cbSP = new JCheckBox("SP");
             cbSP.setFont(font.deriveFont(Math.max(10f, font.getSize()-3f)));
             cbSP.setToolTipText("Sin prácticas: excluir 'Prácticas' y 'Prácticas aula' de esta asignatura.");
             skipPracticesBySubject.put(subj.name(), cbSP);
 
-            // Panel compacto por asignatura (botón + SP)
             JPanel row = new JPanel(new FlowLayout(FlowLayout.LEFT, 4, 0));
             row.add(btn);
             row.add(cbSP);
 
-            // NO estirar el conjunto
             GridBagConstraints gbc = new GridBagConstraints();
             gbc.gridx = gridCol;
             gbc.gridy = gridRow;
@@ -206,10 +205,8 @@ public final class Scheduler {
         }
 
         JScrollPane listScroll = new JScrollPane(buttonPanel);
-        listScroll.setPreferredSize(new Dimension(280, 520)); // más estrecho
+        listScroll.setPreferredSize(new Dimension(300, 520));
         leftPanel.add(listScroll, BorderLayout.CENTER);
-
-        frame.add(leftPanel, BorderLayout.WEST);
 
         /* -------- Barra superior -------- */
         JPanel top = new JPanel(new BorderLayout());
@@ -222,15 +219,33 @@ public final class Scheduler {
         top.add(comboCounterLabel, BorderLayout.EAST);
         frame.add(top, BorderLayout.NORTH);
 
-        /* -------- Área de salida -------- */
+        /* -------- Área de RESUMEN (derecha del split) -------- */
         outputArea = new JTextArea();
         outputArea.setFont(font);
         outputArea.setEditable(false);
-        frame.add(new JScrollPane(outputArea), BorderLayout.CENTER);
+        outputArea.setLineWrap(true);
+        outputArea.setWrapStyleWord(true);
+        outputArea.setMargin(new Insets(8,10,8,10));
+        JScrollPane summaryScroll = new JScrollPane(outputArea);
+        summaryScroll.setMinimumSize(new Dimension(700, 300));
 
-        frame.setSize(1480, 880); // ventana más ancha por defecto
+        /* -------- SPLIT HORIZONTAL con control deslizante -------- */
+        JSplitPane split = new JSplitPane(JSplitPane.HORIZONTAL_SPLIT, leftPanel, summaryScroll);
+        split.setOneTouchExpandable(true);      // flechas para mover más rápido
+        split.setContinuousLayout(true);
+        split.setDividerSize(10);
+        split.setResizeWeight(0.30);            // al redimensionar, el 70% extra va a la derecha
+        split.setDividerLocation(0.35);         // ~35% izquierda / 65% derecha inicial
+
+        // Añadir el split al centro (reemplaza CENTER anterior)
+        frame.add(split, BorderLayout.CENTER);
+
+        frame.setSize(1500, 900);
         frame.setLocationRelativeTo(null);
         frame.setVisible(true);
+
+        // Ajuste final tras mostrar
+        SwingUtilities.invokeLater(() -> split.setDividerLocation(0.35));
     }
 
     private void crearCheckDia(JPanel parent, String txt, DayOfWeek d, Font font){
@@ -271,7 +286,7 @@ public final class Scheduler {
                 .filter(Objects::nonNull)
                 .toList();
 
-        // 4.1) NUEVO: excluir prácticas para asignaturas marcadas “SP”
+        // (Opcional) aplicar “sin prácticas” si marcaste SP en la UI
         Set<String> sp = new HashSet<>();
         for (String name : seleccionadas) {
             JCheckBox cb = skipPracticesBySubject.get(name);
@@ -365,6 +380,7 @@ public final class Scheduler {
         // 8) Mostrar tabla (modal) y listado
         mostrarTabla(porDia, enConf, font);
         outputArea.setText(buildSummary(subjects, mejor, bestSol.val, enConf, semAct));
+        outputArea.setCaretPosition(0);
     }
 
     /* ---------- buildSummary: resumen textual ---------- */
@@ -469,12 +485,10 @@ public final class Scheduler {
 
     // Excluir prácticas para las asignaturas marcadas “SP”
     private static List<Subject> applySkipPractices(List<Subject> baseSubjects, Set<String> spSubjects){
+        if (spSubjects.isEmpty()) return baseSubjects;
         List<Subject> out = new ArrayList<>();
         for (Subject subj : baseSubjects) {
-            if (!spSubjects.contains(subj.name())) {
-                out.add(subj);
-                continue;
-            }
+            if (!spSubjects.contains(subj.name())) { out.add(subj); continue; }
             List<Group> filteredGroups = new ArrayList<>();
             for (Group g : subj.groups()) {
                 List<Session> keep = new ArrayList<>();
@@ -485,7 +499,6 @@ public final class Scheduler {
                 if (!keep.isEmpty()) filteredGroups.add(new Group(g.code(), keep));
             }
             if (!filteredGroups.isEmpty()) out.add(new Subject(subj.name(), filteredGroups));
-            // Nota: si queda vacío, se descarta la asignatura (no necesita ir a nada).
         }
         return out;
     }
@@ -575,7 +588,7 @@ public final class Scheduler {
         };
         for(int i=0;i<table.getColumnCount();i++) table.getColumnModel().getColumn(i).setCellRenderer(rend);
 
-        // --- Hacer la tabla MUCHO más ancha ---
+        // --- Tabla ancha ---
         table.setAutoResizeMode(JTable.AUTO_RESIZE_OFF);
         TableColumnModel cm = table.getColumnModel();
         int timeW = 100;       // Hora
