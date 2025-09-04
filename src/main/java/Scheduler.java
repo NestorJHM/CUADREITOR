@@ -1,9 +1,13 @@
-// Scheduler.java (ajuste UI de anchos)
+// Scheduler.java (añade “Sin prácticas” por asignatura)
 // -----------------------------------------------------------------------------
-// Cambios solicitados:
-// • Botones de asignaturas NO se estiran: se usa GridBagLayout (2 columnas) con fill=NONE.
-// • Panel izquierdo más estrecho.
-// • Cuadro/tabla del horario MUCHO más ancho: columnas con ancho fijo y AUTO_RESIZE_OFF.
+// Nuevo valor añadido:
+// • Checkbox por asignatura (“SP”: Sin prácticas) para excluir prácticas de esa
+//   asignatura al calcular el horario (aplica a “Prácticas” y “Prácticas aula”).
+// • Integrado con ambas modalidades de selección:
+//     - Bloqueo de subgrupo (teoría+prácticas mismo subgrupo)
+//     - Mezcla por tipo (Teoría / Prácticas / Prácticas aula)
+// • Sin fricción: si una asignatura queda sin sesiones tras excluir prácticas,
+//   se elimina del dominio de búsqueda automáticamente.
 // -----------------------------------------------------------------------------
 
 import java.awt.*;
@@ -45,6 +49,9 @@ public final class Scheduler {
     // Días libres múltiples y bloqueo de subgrupo
     private final Map<DayOfWeek, JCheckBox> freeDayChecks = new LinkedHashMap<>();
     private JCheckBox sameSubgroupBox;
+
+    // NUEVO: mapa de “sin prácticas” por asignatura
+    private final Map<String, JCheckBox> skipPracticesBySubject = new HashMap<>();
 
     private static final IntRef combosTested = new IntRef(0);
 
@@ -127,7 +134,7 @@ public final class Scheduler {
         north.add(opts);
         leftPanel.add(north, BorderLayout.NORTH);
 
-        // Botonera de asignaturas (NO estirada)
+        // Botonera de asignaturas (NO estirada) + checkbox “SP”
         JPanel buttonPanel = new JPanel();
         buttonPanel.setLayout(new BoxLayout(buttonPanel, BoxLayout.Y_AXIS));
         subjectButtons = new ArrayList<>();
@@ -164,21 +171,33 @@ public final class Scheduler {
             }
 
             String label = subj.name();
+
+            // Botón principal (selección de asignatura)
             JToggleButton btn = new JToggleButton(label);
             btn.setFont(font);
             btn.setActionCommand(subj.name());
             btn.setMargin(new Insets(2, 6, 2, 6));
             btn.setFocusPainted(false);
-            btn.setContentAreaFilled(true);
 
-            // Clave: NO estirar el botón
+            // NUEVO: checkbox “SP” (sin prácticas)
+            JCheckBox cbSP = new JCheckBox("SP");
+            cbSP.setFont(font.deriveFont(Math.max(10f, font.getSize()-3f)));
+            cbSP.setToolTipText("Sin prácticas: excluir 'Prácticas' y 'Prácticas aula' de esta asignatura.");
+            skipPracticesBySubject.put(subj.name(), cbSP);
+
+            // Panel compacto por asignatura (botón + SP)
+            JPanel row = new JPanel(new FlowLayout(FlowLayout.LEFT, 4, 0));
+            row.add(btn);
+            row.add(cbSP);
+
+            // NO estirar el conjunto
             GridBagConstraints gbc = new GridBagConstraints();
             gbc.gridx = gridCol;
             gbc.gridy = gridRow;
             gbc.anchor = GridBagConstraints.WEST;
             gbc.insets = new Insets(2, 2, 2, 8);
             gbc.fill = GridBagConstraints.NONE;
-            Objects.requireNonNull(gridCursoPanel).add(btn, gbc);
+            Objects.requireNonNull(gridCursoPanel).add(row, gbc);
 
             subjectButtons.add(btn);
 
@@ -251,6 +270,19 @@ public final class Scheduler {
                 .map(s -> filterSubjectBySemester(s, semAct))
                 .filter(Objects::nonNull)
                 .toList();
+
+        // 4.1) NUEVO: excluir prácticas para asignaturas marcadas “SP”
+        Set<String> sp = new HashSet<>();
+        for (String name : seleccionadas) {
+            JCheckBox cb = skipPracticesBySubject.get(name);
+            if (cb != null && cb.isSelected()) sp.add(name);
+        }
+        baseSubjects = applySkipPractices(baseSubjects, sp);
+
+        if (baseSubjects.isEmpty()) {
+            JOptionPane.showMessageDialog(frame, "No quedan sesiones tras aplicar filtros (semestre/días libres/sin prácticas).");
+            return;
+        }
 
         // 5) Bloqueo de subgrupo o mezcla por tipo
         boolean lockSameSubgroup = sameSubgroupBox.isSelected();
@@ -433,6 +465,29 @@ public final class Scheduler {
             if (!ses.isEmpty()) gruposFiltrados.add(new Group(g.code(), ses));
         }
         return gruposFiltrados.isEmpty() ? null : new Subject(subj.name(), gruposFiltrados);
+    }
+
+    // Excluir prácticas para las asignaturas marcadas “SP”
+    private static List<Subject> applySkipPractices(List<Subject> baseSubjects, Set<String> spSubjects){
+        List<Subject> out = new ArrayList<>();
+        for (Subject subj : baseSubjects) {
+            if (!spSubjects.contains(subj.name())) {
+                out.add(subj);
+                continue;
+            }
+            List<Group> filteredGroups = new ArrayList<>();
+            for (Group g : subj.groups()) {
+                List<Session> keep = new ArrayList<>();
+                for (Session s : g.sessions()) {
+                    String t = normalizeTipo(s.tipo());
+                    if (!"Prácticas".equals(t) && !"Prácticas aula".equals(t)) keep.add(s);
+                }
+                if (!keep.isEmpty()) filteredGroups.add(new Group(g.code(), keep));
+            }
+            if (!filteredGroups.isEmpty()) out.add(new Subject(subj.name(), filteredGroups));
+            // Nota: si queda vacío, se descarta la asignatura (no necesita ir a nada).
+        }
+        return out;
     }
 
     private static int conflictDegree(int id, int[][] conflictPairs){
