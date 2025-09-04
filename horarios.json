@@ -1,0 +1,558 @@
+[
+  {"asignatura":"ME","grupo":"1","subgrupo":"41","tipo":"PRÁCTICAS","dia":"LUNES","inicio":"17:00","fin":"19:00","curso":"2","semestre":"1"},
+  {"asignatura":"ME","grupo":"1","subgrupo":"42","tipo":"PRÁCTICAS","dia":"LUNES","inicio":"19:00","fin":"21:00","curso":"2","semestre":"1"},
+  {"asignatura":"ME","grupo":"1","subgrupo":"44","tipo":"PRÁCTICAS","dia":"LUNES","inicio":"15:00","fin":"17:00","curso":"2","semestre":"1"},
+  {"asignatura":"PI","grupo":"1","subgrupo":"41","tipo":"PRÁCTICAS","dia":"LUNES","inicio":"19:00","fin":"21:00","curso":"2","semestre":"1"},
+  {"asignatura":"PI","grupo":"1","subgrupo":"42","tipo":"PRÁCTICAS","dia":"LUNES","inicio":"17:00","fin":"19:00","curso":"2","semestre":"1"},
+  {"asignatura":"AP","grupo":"1","subgrupo":"43","tipo":"PRÁCTICAS","dia":"LUNES","inicio":"17:00","fin":"19:00","curso":"2","semestre":"1"},
+  {"asignatura":"AP","grupo":"1","subgrupo":"44","tipo":"PRÁCTICAS","dia":"LUNES","inicio":"19:00","fin":"21:00","curso":"2","semestre":"1"},
+ {"asignatura":"IS1","grupo":"1","subgrupo":"43","tipo":"PRÁCTICAS","dia":"LUNES","inicio":"19:00","fin":"21:00","curso":"2","semestre":"1"},
+ {"asignatura":"IS1","grupo":"1","subgrupo":"44","tipo":"PRÁCTICAS","dia":"LUNES","inicio":"17:00","fin":"19:00","curso":"2","semestre":"1"},
+
+  {"asignatura":"PI","grupo":"2","subgrupo":"45","tipo":"TEORÍA","dia":"LUNES","inicio":"15:00","fin":"17:00","curso":"2","semestre":"1"},
+  {"asignatura":"PI","grupo":"2","subgrupo":"46","tipo":"TEORÍA","dia":"LUNES","inicio":"15:00","fin":"17:00","curso":"2","semestre":"1"},
+  {"asignatura":"PI","grupo":"2","subgrupo":"47","tipo":"TEORÍA","dia":"LUNES","inicio":"15:00","fin":"17:00","curso":"2","semestre":"1"},
+  {"asignatura":"PI","grupo":"2","subgrupo":"48","tipo":"TEORÍA","dia":"LUNES","inicio":"15:00","fin":"17:00","curso":"2","semestre":"1"},
+  {"asignatura":"ME","grupo":"2","subgrupo":"45","tipo":"TEORÍA","dia":"LUNES","inicio":"17:00","fin":"18:00","curso":"2","semestre":"1"},
+  {"asignatura":"ME","grupo":"2","subgrupo":"46","tipo":"TEORÍA","dia":"LUNES","inicio":"17:00","fin":"18:00","curso":"2","semestre":"1"},
+  {"asignatura":"ME","grupo":"2","subgrupo":"47","tipo":"TEORÍA","dia":"LUNES","inicio":"17:00","fin":"18:00","curso":"2","semestre":"1"},
+  {"asignatura":"ME","grupo":"2","subgrupo":"48","tipo":"TEORÍA","dia":"LUNES","inicio":"17:00","fin":"18:00","curso":"2","semestre":"1"},
+  {"asignatura":"AP","grupo":"2","subgrupo":"45","tipo":"TEORÍA","dia":"LUNES","inicio":"18:00","fin":"19:00","curso":"2","semestre":"1"},
+  {"asignatura":"AP","grupo":"2","subgrupo":"46","tipo":"TEORÍA","dia":"LUNES","inicio":"18:00","fin":"19:00","curso":"2","semestre":"1"},
+  {"asignatura":"AP","grupo":"2","subgrupo":"47","tipo":"TEORÍA","dia":"LUNES","inicio":"18:00","fin":"19:00","curso":"2","semestre":"1"},
+  {"asignatura":"AP","grupo":"2","subgrupo":"48","tipo":"TEORÍA","dia":"LUNES","inicio":"18:00","fin":"19:00","curso":"2","semestre":"1"},
+  {"asignatura":"TP","grupo":"2","subgrupo":"45","tipo":"TEORÍA","dia":"LUNES","inicio":"19:00","fin":"20:00","curso":"2","semestre":"1"},
+  {"asignatura":"TP","grupo":"2","subgrupo":"46","tipo":"TEORÍA","dia":"LUNES","inicio":"19:00","fin":"20:00","curso":"2","semestre":"1"},
+  {"asignatura":"TP","grupo":"2","subgrupo":"47","tipo":"TEORÍA","dia":"LUNES","inicio":"19:00","fin":"20:00","curso":"2","semestre":"1"},
+  {"asignatura":"TP","grupo":"2","subgrupo":"48","tipo":"TEORÍA","dia":"LUNES","inicio":"19:00","fin":"20:00","curso":"2","semestre":"1"},
+
+
+
+ {"asignatura":"IS1","grupo":"1","subgrupo":"41","tipo":"TEORÍA","dia":"MARTES","inicio":"15:00","fin":"17:00","curso":"2","semestre":"1"},
+ {"asignatura":"IS1","grupo":"1","subgrupo":"42","tipo":"TEORÍA","dia":"MARTES","inicio":"15:00","fin":"17:00","curso":"2","semestre":"1"},
+ {"asignatura":"IS1","grupo":"1","subgrupo":"43","tipo":"TEORÍA","dia":"MARTES","inicio":"15:00","fin":"17:00","curso":"2","semestre":"1"},
+ {"asignatura":"IS1","grupo":"1","subgrupo":"44","tipo":"TEORÍA","dia":"MARTES","inicio":"15:00","fin":"17:00","curso":"2","semestre":"1"},
+  {"asignatura":"AP","grupo":"1","subgrupo":"41","tipo":"TEORÍA","dia":"MARTES","inicio":"17:00","fin":"18:00","curso":"2","semestre":"1"},
+  {"asignatura":"AP","grupo":"1","subgrupo":"42","tipo":"TEORÍA","dia":"MARTES","inicio":"17:00","fin":"18:00","curso":"2","semestre":"1"},
+  {"asignatura":"AP","grupo":"1","subgrupo":"43","tipo":"TEORÍA","dia":"MARTES","inicio":"17:00","fin":"18:00","curso":"2","semestre":"1"},
+  {"asignatura":"AP","grupo":"1","subgrupo":"44","tipo":"TEORÍA","dia":"MARTES","inicio":"17:00","fin":"18:00","curso":"2","semestre":"1"},
+  {"asignatura":"TP","grupo":"1","subgrupo":"41","tipo":"TEORÍA","dia":"MARTES","inicio":"18:00","fin":"19:00","curso":"2","semestre":"1"},
+  {"asignatura":"TP","grupo":"1","subgrupo":"42","tipo":"TEORÍA","dia":"MARTES","inicio":"18:00","fin":"19:00","curso":"2","semestre":"1"},
+  {"asignatura":"TP","grupo":"1","subgrupo":"43","tipo":"TEORÍA","dia":"MARTES","inicio":"18:00","fin":"19:00","curso":"2","semestre":"1"},
+  {"asignatura":"TP","grupo":"1","subgrupo":"44","tipo":"TEORÍA","dia":"MARTES","inicio":"18:00","fin":"19:00","curso":"2","semestre":"1"},
+  {"asignatura":"ME","grupo":"1","subgrupo":"41","tipo":"TEORÍA","dia":"MARTES","inicio":"19:00","fin":"20:00","curso":"2","semestre":"1"},
+  {"asignatura":"ME","grupo":"1","subgrupo":"42","tipo":"TEORÍA","dia":"MARTES","inicio":"19:00","fin":"20:00","curso":"2","semestre":"1"},
+  {"asignatura":"ME","grupo":"1","subgrupo":"43","tipo":"TEORÍA","dia":"MARTES","inicio":"19:00","fin":"20:00","curso":"2","semestre":"1"},
+  {"asignatura":"ME","grupo":"1","subgrupo":"44","tipo":"TEORÍA","dia":"MARTES","inicio":"19:00","fin":"20:00","curso":"2","semestre":"1"},
+
+  {"asignatura":"ME","grupo":"2","subgrupo":"45","tipo":"PRÁCTICAS","dia":"MARTES","inicio":"17:00","fin":"19:00","curso":"2","semestre":"1"},
+  {"asignatura":"ME","grupo":"2","subgrupo":"46","tipo":"PRÁCTICAS","dia":"MARTES","inicio":"19:00","fin":"21:00","curso":"2","semestre":"1"},
+  {"asignatura":"ME","grupo":"2","subgrupo":"48","tipo":"PRÁCTICAS","dia":"MARTES","inicio":"15:00","fin":"17:00","curso":"2","semestre":"1"},
+  {"asignatura":"TP","grupo":"2","subgrupo":"45","tipo":"PRÁCTICAS","dia":"MARTES","inicio":"19:00","fin":"21:00","curso":"2","semestre":"1"},
+  {"asignatura":"TP","grupo":"2","subgrupo":"46","tipo":"PRÁCTICAS","dia":"MARTES","inicio":"17:00","fin":"19:00","curso":"2","semestre":"1"},
+ {"asignatura":"IS1","grupo":"2","subgrupo":"47","tipo":"PRÁCTICAS","dia":"MARTES","inicio":"17:00","fin":"19:00","curso":"2","semestre":"1"},
+ {"asignatura":"IS1","grupo":"2","subgrupo":"48","tipo":"PRÁCTICAS","dia":"MARTES","inicio":"19:00","fin":"21:00","curso":"2","semestre":"1"},
+  {"asignatura":"PI","grupo":"2","subgrupo":"47","tipo":"PRÁCTICAS","dia":"MARTES","inicio":"19:00","fin":"21:00","curso":"2","semestre":"1"},
+  {"asignatura":"PI","grupo":"2","subgrupo":"48","tipo":"PRÁCTICAS","dia":"MARTES","inicio":"17:00","fin":"19:00","curso":"2","semestre":"1"},
+  
+  
+  
+  {"asignatura":"AP","grupo":"1","subgrupo":"41","tipo":"TEORÍA","dia":"MIÉRCOLES","inicio":"16:00","fin":"17:00","curso":"2","semestre":"1"},
+  {"asignatura":"AP","grupo":"1","subgrupo":"42","tipo":"TEORÍA","dia":"MIÉRCOLES","inicio":"16:00","fin":"17:00","curso":"2","semestre":"1"},
+  {"asignatura":"AP","grupo":"1","subgrupo":"43","tipo":"TEORÍA","dia":"MIÉRCOLES","inicio":"16:00","fin":"17:00","curso":"2","semestre":"1"},
+  {"asignatura":"AP","grupo":"1","subgrupo":"44","tipo":"TEORÍA","dia":"MIÉRCOLES","inicio":"16:00","fin":"17:00","curso":"2","semestre":"1"},
+  {"asignatura":"ME","grupo":"1","subgrupo":"41","tipo":"TEORÍA","dia":"MIÉRCOLES","inicio":"17:00","fin":"18:00","curso":"2","semestre":"1"},
+  {"asignatura":"ME","grupo":"1","subgrupo":"42","tipo":"TEORÍA","dia":"MIÉRCOLES","inicio":"17:00","fin":"18:00","curso":"2","semestre":"1"},
+  {"asignatura":"ME","grupo":"1","subgrupo":"43","tipo":"TEORÍA","dia":"MIÉRCOLES","inicio":"17:00","fin":"18:00","curso":"2","semestre":"1"},
+  {"asignatura":"ME","grupo":"1","subgrupo":"44","tipo":"TEORÍA","dia":"MIÉRCOLES","inicio":"17:00","fin":"18:00","curso":"2","semestre":"1"},
+  {"asignatura":"PI","grupo":"1","subgrupo":"41","tipo":"TEORÍA","dia":"MIÉRCOLES","inicio":"18:00","fin":"20:00","curso":"2","semestre":"1"},
+  {"asignatura":"PI","grupo":"1","subgrupo":"42","tipo":"TEORÍA","dia":"MIÉRCOLES","inicio":"18:00","fin":"20:00","curso":"2","semestre":"1"},
+  {"asignatura":"PI","grupo":"1","subgrupo":"43","tipo":"TEORÍA","dia":"MIÉRCOLES","inicio":"18:00","fin":"20:00","curso":"2","semestre":"1"},
+  {"asignatura":"PI","grupo":"1","subgrupo":"44","tipo":"TEORÍA","dia":"MIÉRCOLES","inicio":"18:00","fin":"20:00","curso":"2","semestre":"1"},
+  {"asignatura":"TP","grupo":"1","subgrupo":"41","tipo":"TEORÍA","dia":"MIÉRCOLES","inicio":"20:00","fin":"21:00","curso":"2","semestre":"1"},
+  {"asignatura":"TP","grupo":"1","subgrupo":"42","tipo":"TEORÍA","dia":"MIÉRCOLES","inicio":"20:00","fin":"21:00","curso":"2","semestre":"1"},
+  {"asignatura":"TP","grupo":"1","subgrupo":"43","tipo":"TEORÍA","dia":"MIÉRCOLES","inicio":"20:00","fin":"21:00","curso":"2","semestre":"1"},
+  {"asignatura":"TP","grupo":"1","subgrupo":"44","tipo":"TEORÍA","dia":"MIÉRCOLES","inicio":"20:00","fin":"21:00","curso":"2","semestre":"1"},
+  
+  {"asignatura":"AP","grupo":"2","subgrupo":"45","tipo":"TEORÍA","dia":"MIÉRCOLES","inicio":"15:00","fin":"16:00","curso":"2","semestre":"1"},
+  {"asignatura":"AP","grupo":"2","subgrupo":"46","tipo":"TEORÍA","dia":"MIÉRCOLES","inicio":"15:00","fin":"16:00","curso":"2","semestre":"1"},
+  {"asignatura":"AP","grupo":"2","subgrupo":"47","tipo":"TEORÍA","dia":"MIÉRCOLES","inicio":"15:00","fin":"16:00","curso":"2","semestre":"1"},
+  {"asignatura":"AP","grupo":"2","subgrupo":"48","tipo":"TEORÍA","dia":"MIÉRCOLES","inicio":"15:00","fin":"16:00","curso":"2","semestre":"1"},
+  {"asignatura":"ME","grupo":"2","subgrupo":"45","tipo":"TEORÍA","dia":"MIÉRCOLES","inicio":"16:00","fin":"17:00","curso":"2","semestre":"1"},
+  {"asignatura":"ME","grupo":"2","subgrupo":"46","tipo":"TEORÍA","dia":"MIÉRCOLES","inicio":"16:00","fin":"17:00","curso":"2","semestre":"1"},
+  {"asignatura":"ME","grupo":"2","subgrupo":"47","tipo":"TEORÍA","dia":"MIÉRCOLES","inicio":"16:00","fin":"17:00","curso":"2","semestre":"1"},
+  {"asignatura":"ME","grupo":"2","subgrupo":"48","tipo":"TEORÍA","dia":"MIÉRCOLES","inicio":"16:00","fin":"17:00","curso":"2","semestre":"1"},
+ {"asignatura":"IS1","grupo":"2","subgrupo":"45","tipo":"TEORÍA","dia":"MIÉRCOLES","inicio":"17:00","fin":"19:00","curso":"2","semestre":"1"},
+ {"asignatura":"IS1","grupo":"2","subgrupo":"46","tipo":"TEORÍA","dia":"MIÉRCOLES","inicio":"17:00","fin":"19:00","curso":"2","semestre":"1"},
+ {"asignatura":"IS1","grupo":"2","subgrupo":"47","tipo":"TEORÍA","dia":"MIÉRCOLES","inicio":"17:00","fin":"19:00","curso":"2","semestre":"1"},
+ {"asignatura":"IS1","grupo":"2","subgrupo":"48","tipo":"TEORÍA","dia":"MIÉRCOLES","inicio":"17:00","fin":"19:00","curso":"2","semestre":"1"},
+  {"asignatura":"TP","grupo":"2","subgrupo":"45","tipo":"TEORÍA","dia":"MIÉRCOLES","inicio":"19:00","fin":"20:00","curso":"2","semestre":"1"},
+  {"asignatura":"TP","grupo":"2","subgrupo":"46","tipo":"TEORÍA","dia":"MIÉRCOLES","inicio":"19:00","fin":"20:00","curso":"2","semestre":"1"},
+  {"asignatura":"TP","grupo":"2","subgrupo":"47","tipo":"TEORÍA","dia":"MIÉRCOLES","inicio":"19:00","fin":"20:00","curso":"2","semestre":"1"},
+  {"asignatura":"TP","grupo":"2","subgrupo":"48","tipo":"TEORÍA","dia":"MIÉRCOLES","inicio":"19:00","fin":"20:00","curso":"2","semestre":"1"},
+  
+ 
+
+  {"asignatura":"AP","grupo":"2","subgrupo":"45","tipo":"PRÁCTICAS","dia":"JUEVES","inicio":"15:00","fin":"17:00","curso":"2","semestre":"1"},
+  {"asignatura":"AP","grupo":"2","subgrupo":"46","tipo":"PRÁCTICAS","dia":"JUEVES","inicio":"15:00","fin":"17:00","curso":"2","semestre":"1"},
+  {"asignatura":"AP","grupo":"2","subgrupo":"47","tipo":"PRÁCTICAS","dia":"JUEVES","inicio":"19:00","fin":"21:00","curso":"2","semestre":"1"},
+  {"asignatura":"AP","grupo":"2","subgrupo":"48","tipo":"PRÁCTICAS","dia":"JUEVES","inicio":"19:00","fin":"21:00","curso":"2","semestre":"1"},
+  {"asignatura":"PI","grupo":"2","subgrupo":"45","tipo":"PRÁCTICAS","dia":"JUEVES","inicio":"17:00","fin":"19:00","curso":"2","semestre":"1"},
+  {"asignatura":"PI","grupo":"2","subgrupo":"46","tipo":"PRÁCTICAS","dia":"JUEVES","inicio":"17:00","fin":"19:00","curso":"2","semestre":"1"},
+ {"asignatura":"IS1","grupo":"2","subgrupo":"45","tipo":"PRÁCTICAS","dia":"JUEVES","inicio":"19:00","fin":"21:00","curso":"2","semestre":"1"},
+ {"asignatura":"IS1","grupo":"2","subgrupo":"46","tipo":"PRÁCTICAS","dia":"JUEVES","inicio":"19:00","fin":"21:00","curso":"2","semestre":"1"},
+  {"asignatura":"ME","grupo":"2","subgrupo":"47","tipo":"PRÁCTICAS","dia":"JUEVES","inicio":"15:00","fin":"17:00","curso":"2","semestre":"1"},
+  {"asignatura":"TP","grupo":"2","subgrupo":"47","tipo":"PRÁCTICAS","dia":"JUEVES","inicio":"17:00","fin":"19:00","curso":"2","semestre":"1"},
+  {"asignatura":"TP","grupo":"2","subgrupo":"48","tipo":"PRÁCTICAS","dia":"JUEVES","inicio":"17:00","fin":"19:00","curso":"2","semestre":"1"},
+
+
+
+  {"asignatura":"AP","grupo":"1","subgrupo":"41","tipo":"PRÁCTICAS","dia":"VIERNES","inicio":"15:00","fin":"17:00","curso":"2","semestre":"1"},
+  {"asignatura":"AP","grupo":"1","subgrupo":"42","tipo":"PRÁCTICAS","dia":"VIERNES","inicio":"15:00","fin":"17:00","curso":"2","semestre":"1"},
+ {"asignatura":"IS1","grupo":"1","subgrupo":"41","tipo":"PRÁCTICAS","dia":"VIERNES","inicio":"17:00","fin":"19:00","curso":"2","semestre":"1"},
+ {"asignatura":"IS1","grupo":"1","subgrupo":"42","tipo":"PRÁCTICAS","dia":"VIERNES","inicio":"17:00","fin":"19:00","curso":"2","semestre":"1"},
+  {"asignatura":"TP","grupo":"1","subgrupo":"41","tipo":"PRÁCTICAS","dia":"VIERNES","inicio":"19:00","fin":"21:00","curso":"2","semestre":"1"},
+  {"asignatura":"TP","grupo":"1","subgrupo":"42","tipo":"PRÁCTICAS","dia":"VIERNES","inicio":"19:00","fin":"21:00","curso":"2","semestre":"1"},
+  {"asignatura":"PI","grupo":"1","subgrupo":"43","tipo":"PRÁCTICAS","dia":"VIERNES","inicio":"15:00","fin":"17:00","curso":"2","semestre":"1"},
+  {"asignatura":"PI","grupo":"1","subgrupo":"44","tipo":"PRÁCTICAS","dia":"VIERNES","inicio":"15:00","fin":"17:00","curso":"2","semestre":"1"},
+  {"asignatura":"TP","grupo":"1","subgrupo":"43","tipo":"PRÁCTICAS","dia":"VIERNES","inicio":"17:00","fin":"19:00","curso":"2","semestre":"1"},
+  {"asignatura":"TP","grupo":"1","subgrupo":"44","tipo":"PRÁCTICAS","dia":"VIERNES","inicio":"17:00","fin":"19:00","curso":"2","semestre":"1"},
+  {"asignatura":"ME","grupo":"1","subgrupo":"43","tipo":"PRÁCTICAS","dia":"VIERNES","inicio":"19:00","fin":"21:00","curso":"2","semestre":"1"},
+  
+  
+  
+    
+  {"asignatura":"FSI","grupo":"1","subgrupo":"41","tipo":"PRÁCTICAS AULA","dia":"LUNES","inicio":"15:00","fin":"16:00","curso":"3","semestre":"1"},
+  {"asignatura":"FSI","grupo":"1","subgrupo":"42","tipo":"PRÁCTICAS AULA","dia":"LUNES","inicio":"15:00","fin":"16:00","curso":"3","semestre":"1"},
+
+  {"asignatura":"IS2","grupo":"1","subgrupo":"41","tipo":"TEORÍA","dia":"LUNES","inicio":"16:00","fin":"17:00","curso":"3","semestre":"1"},
+  {"asignatura":"IS2","grupo":"1","subgrupo":"42","tipo":"TEORÍA","dia":"LUNES","inicio":"16:00","fin":"17:00","curso":"3","semestre":"1"},
+  {"asignatura":"IS2","grupo":"1","subgrupo":"43","tipo":"TEORÍA","dia":"LUNES","inicio":"16:00","fin":"17:00","curso":"3","semestre":"1"},
+  {"asignatura":"IS2","grupo":"1","subgrupo":"44","tipo":"TEORÍA","dia":"LUNES","inicio":"16:00","fin":"17:00","curso":"3","semestre":"1"},
+  {"asignatura":"IS2","grupo":"1","subgrupo":"45","tipo":"TEORÍA","dia":"LUNES","inicio":"16:00","fin":"17:00","curso":"3","semestre":"1"},
+
+  {"asignatura":"BD2","grupo":"1","subgrupo":"41","tipo":"TEORÍA","dia":"LUNES","inicio":"17:00","fin":"19:00","curso":"3","semestre":"1"},
+  {"asignatura":"BD2","grupo":"1","subgrupo":"42","tipo":"TEORÍA","dia":"LUNES","inicio":"17:00","fin":"19:00","curso":"3","semestre":"1"},
+  {"asignatura":"BD2","grupo":"1","subgrupo":"43","tipo":"TEORÍA","dia":"LUNES","inicio":"17:00","fin":"19:00","curso":"3","semestre":"1"},
+  {"asignatura":"BD2","grupo":"1","subgrupo":"44","tipo":"TEORÍA","dia":"LUNES","inicio":"17:00","fin":"19:00","curso":"3","semestre":"1"},
+  {"asignatura":"BD2","grupo":"1","subgrupo":"45","tipo":"TEORÍA","dia":"LUNES","inicio":"17:00","fin":"19:00","curso":"3","semestre":"1"},
+  
+  {"asignatura":"IS2","grupo":"1","subgrupo":"41","tipo":"PRACTICAS (i)","dia":"LUNES","inicio":"19:00","fin":"21:00","curso":"3","semestre":"1"},
+  {"asignatura":"IS2","grupo":"1","subgrupo":"42","tipo":"PRACTICAS (p)","dia":"LUNES","inicio":"19:00","fin":"21:00","curso":"3","semestre":"1"},
+  {"asignatura":"FSI","grupo":"1","subgrupo":"45","tipo":"PRÁCTICAS (i)","dia":"LUNES","inicio":"19:00","fin":"21:00","curso":"3","semestre":"1"},
+
+ 
+
+
+  {"asignatura":"RC","grupo":"1","subgrupo":"41","tipo":"TEORÍA","dia":"MARTES","inicio":"15:00","fin":"16:00","curso":"3","semestre":"1"},
+  {"asignatura":"RC","grupo":"1","subgrupo":"42","tipo":"TEORÍA","dia":"MARTES","inicio":"15:00","fin":"16:00","curso":"3","semestre":"1"},
+  {"asignatura":"RC","grupo":"1","subgrupo":"43","tipo":"TEORÍA","dia":"MARTES","inicio":"15:00","fin":"16:00","curso":"3","semestre":"1"},
+  {"asignatura":"RC","grupo":"1","subgrupo":"44","tipo":"TEORÍA","dia":"MARTES","inicio":"15:00","fin":"16:00","curso":"3","semestre":"1"},
+  {"asignatura":"RC","grupo":"1","subgrupo":"45","tipo":"TEORÍA","dia":"MARTES","inicio":"15:00","fin":"16:00","curso":"3","semestre":"1"},
+  
+  {"asignatura":"FSI","grupo":"1","subgrupo":"41","tipo":"TEORÍA","dia":"MARTES","inicio":"16:00","fin":"17:00","curso":"3","semestre":"1"},
+  {"asignatura":"FSI","grupo":"1","subgrupo":"42","tipo":"TEORÍA","dia":"MARTES","inicio":"16:00","fin":"17:00","curso":"3","semestre":"1"},
+  {"asignatura":"FSI","grupo":"1","subgrupo":"43","tipo":"TEORÍA","dia":"MARTES","inicio":"16:00","fin":"17:00","curso":"3","semestre":"1"},
+  {"asignatura":"FSI","grupo":"1","subgrupo":"44","tipo":"TEORÍA","dia":"MARTES","inicio":"16:00","fin":"17:00","curso":"3","semestre":"1"},
+  {"asignatura":"FSI","grupo":"1","subgrupo":"45","tipo":"TEORÍA","dia":"MARTES","inicio":"16:00","fin":"17:00","curso":"3","semestre":"1"},
+  
+  {"asignatura":"IS2","grupo":"1","subgrupo":"41","tipo":"PRÁCTICAS AULA (i)","dia":"MARTES","inicio":"17:00","fin":"19:00","curso":"3","semestre":"1"},
+  {"asignatura":"IS2","grupo":"1","subgrupo":"42","tipo":"PRÁCTICAS AULA (i)","dia":"MARTES","inicio":"17:00","fin":"19:00","curso":"3","semestre":"1"},
+  {"asignatura":"IS2","grupo":"1","subgrupo":"43","tipo":"PRÁCTICAS AULA (p)","dia":"MARTES","inicio":"17:00","fin":"19:00","curso":"3","semestre":"1"},
+  {"asignatura":"IS2","grupo":"1","subgrupo":"44","tipo":"PRÁCTICAS AULA (p)","dia":"MARTES","inicio":"17:00","fin":"19:00","curso":"3","semestre":"1"},
+  {"asignatura":"IS2","grupo":"1","subgrupo":"45","tipo":"PRÁCTICAS AULA (p)","dia":"MARTES","inicio":"17:00","fin":"19:00","curso":"3","semestre":"1"},
+  
+  {"asignatura":"FSI","grupo":"1","subgrupo":"43","tipo":"PRÁCTICAS AULA","dia":"MARTES","inicio":"19:00","fin":"20:00","curso":"3","semestre":"1"},
+  {"asignatura":"FSI","grupo":"1","subgrupo":"44","tipo":"PRÁCTICAS AULA","dia":"MARTES","inicio":"19:00","fin":"20:00","curso":"3","semestre":"1"},
+  {"asignatura":"FSI","grupo":"1","subgrupo":"45","tipo":"PRÁCTICAS AULA","dia":"MARTES","inicio":"19:00","fin":"20:00","curso":"3","semestre":"1"},
+
+ {"asignatura":"IS2","grupo":"1","subgrupo":"45","tipo":"PRÁCTICAS (i)","dia":"MARTES","inicio":"19:00","fin":"21:00","curso":"3","semestre":"1"},
+
+
+
+  
+  {"asignatura":"IS2","grupo":"1","subgrupo":"43","tipo":"PRÁCTICAS (i)","dia":"MIÉRCOLES","inicio":"15:00","fin":"17:00","curso":"3","semestre":"1"},
+  {"asignatura":"IS2","grupo":"1","subgrupo":"44","tipo":"PRÁCTICAS (p)","dia":"MIÉRCOLES","inicio":"15:00","fin":"17:00","curso":"3","semestre":"1"},
+  {"asignatura":"RC","grupo":"1","subgrupo":"45","tipo":"PRÁCTICAS","dia":"MIÉRCOLES","inicio":"15:00","fin":"17:00","curso":"3","semestre":"1"},
+  {"asignatura":"IS2","grupo":"1","subgrupo":"41","tipo":"TEORÍA","dia":"MIÉRCOLES","inicio":"17:00","fin":"18:00","curso":"3","semestre":"1"},
+  {"asignatura":"IS2","grupo":"1","subgrupo":"42","tipo":"TEORÍA","dia":"MIÉRCOLES","inicio":"17:00","fin":"18:00","curso":"3","semestre":"1"},
+  {"asignatura":"IS2","grupo":"1","subgrupo":"43","tipo":"TEORÍA","dia":"MIÉRCOLES","inicio":"17:00","fin":"18:00","curso":"3","semestre":"1"},
+  {"asignatura":"IS2","grupo":"1","subgrupo":"44","tipo":"TEORÍA","dia":"MIÉRCOLES","inicio":"17:00","fin":"18:00","curso":"3","semestre":"1"},
+  {"asignatura":"IS2","grupo":"1","subgrupo":"45","tipo":"TEORÍA","dia":"MIÉRCOLES","inicio":"17:00","fin":"18:00","curso":"3","semestre":"1"},
+	
+  {"asignatura":"RC","grupo":"1","subgrupo":"41","tipo":"TEORÍA","dia":"MIÉRCOLES","inicio":"18:00","fin":"19:00","curso":"3","semestre":"1"},
+  {"asignatura":"RC","grupo":"1","subgrupo":"42","tipo":"TEORÍA","dia":"MIÉRCOLES","inicio":"18:00","fin":"19:00","curso":"3","semestre":"1"},
+  {"asignatura":"RC","grupo":"1","subgrupo":"43","tipo":"TEORÍA","dia":"MIÉRCOLES","inicio":"18:00","fin":"19:00","curso":"3","semestre":"1"},
+  {"asignatura":"RC","grupo":"1","subgrupo":"44","tipo":"TEORÍA","dia":"MIÉRCOLES","inicio":"18:00","fin":"19:00","curso":"3","semestre":"1"},
+  {"asignatura":"RC","grupo":"1","subgrupo":"45","tipo":"TEORÍA","dia":"MIÉRCOLES","inicio":"18:00","fin":"19:00","curso":"3","semestre":"1"},
+  
+  {"asignatura":"FSI","grupo":"1","subgrupo":"41","tipo":"TEORÍA","dia":"MIÉRCOLES","inicio":"19:00","fin":"20:00","curso":"3","semestre":"1"},
+  {"asignatura":"FSI","grupo":"1","subgrupo":"42","tipo":"TEORÍA","dia":"MIÉRCOLES","inicio":"19:00","fin":"20:00","curso":"3","semestre":"1"},
+  {"asignatura":"FSI","grupo":"1","subgrupo":"43","tipo":"TEORÍA","dia":"MIÉRCOLES","inicio":"19:00","fin":"20:00","curso":"3","semestre":"1"},
+  {"asignatura":"FSI","grupo":"1","subgrupo":"44","tipo":"TEORÍA","dia":"MIÉRCOLES","inicio":"19:00","fin":"20:00","curso":"3","semestre":"1"},
+  {"asignatura":"FSI","grupo":"1","subgrupo":"45","tipo":"TEORÍA","dia":"MIÉRCOLES","inicio":"19:00","fin":"20:00","curso":"3","semestre":"1"},
+  
+  {"asignatura":"ASO","grupo":"1","subgrupo":"41","tipo":"TEORÍA","dia":"MIÉRCOLES","inicio":"20:00","fin":"21:00","curso":"3","semestre":"1"},
+  {"asignatura":"ASO","grupo":"1","subgrupo":"42","tipo":"TEORÍA","dia":"MIÉRCOLES","inicio":"20:00","fin":"21:00","curso":"3","semestre":"1"},
+  {"asignatura":"ASO","grupo":"1","subgrupo":"43","tipo":"TEORÍA","dia":"MIÉRCOLES","inicio":"20:00","fin":"21:00","curso":"3","semestre":"1"},
+  {"asignatura":"ASO","grupo":"1","subgrupo":"44","tipo":"TEORÍA","dia":"MIÉRCOLES","inicio":"20:00","fin":"21:00","curso":"3","semestre":"1"},
+  {"asignatura":"ASO","grupo":"1","subgrupo":"45","tipo":"TEORÍA","dia":"MIÉRCOLES","inicio":"20:00","fin":"21:00","curso":"3","semestre":"1"},
+
+
+
+
+  {"asignatura":"ASO","grupo":"1","subgrupo":"42","tipo":"PRÁCTICAS","dia":"JUEVES","inicio":"15:00","fin":"18:00","curso":"3","semestre":"1"},
+  {"asignatura":"BD2","grupo":"1","subgrupo":"41","tipo":"PRÁCTICAS","dia":"JUEVES","inicio":"17:00","fin":"19:00","curso":"3","semestre":"1"},
+  {"asignatura":"RC","grupo":"1","subgrupo":"41","tipo":"PRÁCTICAS","dia":"JUEVES","inicio":"19:00","fin":"21:00","curso":"3","semestre":"1"},
+  {"asignatura":"FSI","grupo":"1","subgrupo":"43","tipo":"PRÁCTICAS (i)","dia":"JUEVES","inicio":"16:00","fin":"18:00","curso":"3","semestre":"1"},
+  {"asignatura":"ASO","grupo":"1","subgrupo":"43","tipo":"PRÁCTICAS","dia":"JUEVES","inicio":"18:00","fin":"21:00","curso":"3","semestre":"1"},
+  {"asignatura":"FSI","grupo":"1","subgrupo":"44","tipo":"PRÁCTICAS (p)","dia":"JUEVES","inicio":"15:00","fin":"17:00","curso":"3","semestre":"1"},
+  {"asignatura":"RC","grupo":"1","subgrupo":"44","tipo":"PRÁCTICAS","dia":"JUEVES","inicio":"17:00","fin":"19:00","curso":"3","semestre":"1"},
+  {"asignatura":"BD2","grupo":"1","subgrupo":"44","tipo":"PRÁCTICAS","dia":"JUEVES","inicio":"19:00","fin":"21:00","curso":"3","semestre":"1"},
+  {"asignatura":"BD2","grupo":"1","subgrupo":"45","tipo":"PRÁCTICAS","dia":"JUEVES","inicio":"15:00","fin":"17:00","curso":"3","semestre":"1"},
+  {"asignatura":"ASO","grupo":"1","subgrupo":"45","tipo":"PRÁCTICAS","dia":"JUEVES","inicio":"17:00","fin":"20:00","curso":"3","semestre":"1"},
+
+
+
+
+  {"asignatura":"ASO","grupo":"1","subgrupo":"41","tipo":"PRÁCTICAS","dia":"VIERNES","inicio":"15:00","fin":"18:00","curso":"3","semestre":"1"},
+  {"asignatura":"FSI","grupo":"1","subgrupo":"41","tipo":"PRÁCTICAS (i)","dia":"VIERNES","inicio":"18:00","fin":"20:00","curso":"3","semestre":"1"},
+  {"asignatura":"FSI","grupo":"1","subgrupo":"42","tipo":"PRÁCTICAS (p)","dia":"VIERNES","inicio":"15:00","fin":"17:00","curso":"3","semestre":"1"},
+  {"asignatura":"RC","grupo":"1","subgrupo":"42","tipo":"PRÁCTICAS","dia":"VIERNES","inicio":"17:00","fin":"19:00","curso":"3","semestre":"1"},
+  {"asignatura":"BD2","grupo":"1","subgrupo":"42","tipo":"PRÁCTICAS","dia":"VIERNES","inicio":"19:00","fin":"21:00","curso":"3","semestre":"1"},
+  {"asignatura":"RC","grupo":"1","subgrupo":"43","tipo":"PRÁCTICAS","dia":"VIERNES","inicio":"15:00","fin":"17:00","curso":"3","semestre":"1"},
+  {"asignatura":"BD2","grupo":"1","subgrupo":"43","tipo":"PRÁCTICAS","dia":"VIERNES","inicio":"17:00","fin":"19:00","curso":"3","semestre":"1"},
+  {"asignatura":"ASO","grupo":"1","subgrupo":"44","tipo":"PRÁCTICAS","dia":"VIERNES","inicio":"18:00","fin":"21:00","curso":"3","semestre":"1"},
+
+
+
+
+  {"asignatura":"IG*","grupo":"1","subgrupo":"41","tipo":"TEORÍA","dia":"LUNES","inicio":"14:00","fin":"15:00","curso":"4","semestre":"1"},
+  {"asignatura":"IG*","grupo":"1","subgrupo":"42","tipo":"TEORÍA","dia":"LUNES","inicio":"14:00","fin":"15:00","curso":"4","semestre":"1"},
+  
+  {"asignatura":"ECEBT*","grupo":"1","subgrupo":"41","tipo":"TEORÍA","dia":"LUNES","inicio":"15:00","fin":"17:00","curso":"4","semestre":"1"},
+  {"asignatura":"ECEBT*","grupo":"1","subgrupo":"42","tipo":"TEORÍA","dia":"LUNES","inicio":"15:00","fin":"17:00","curso":"4","semestre":"1"},
+
+  {"asignatura":"VC*","grupo":"1","subgrupo":"41","tipo":"TEORÍA","dia":"LUNES","inicio":"17:00","fin":"18:00","curso":"4","semestre":"1"},
+  {"asignatura":"VC*","grupo":"1","subgrupo":"42","tipo":"TEORÍA","dia":"LUNES","inicio":"17:00","fin":"18:00","curso":"4","semestre":"1"},
+  {"asignatura":"VC*","grupo":"1","subgrupo":"43","tipo":"TEORÍA","dia":"LUNES","inicio":"17:00","fin":"18:00","curso":"4","semestre":"1"},
+
+  {"asignatura":"IC*","grupo":"1","subgrupo":"41","tipo":"TEORÍA","dia":"LUNES","inicio":"18:00","fin":"19:00","curso":"4","semestre":"1"},
+
+
+  {"asignatura":"CN*","grupo":"1","subgrupo":"41","tipo":"TEORÍA","dia":"LUNES","inicio":"19:00","fin":"21:00","curso":"4","semestre":"1"},
+  {"asignatura":"CN*","grupo":"1","subgrupo":"42","tipo":"TEORÍA","dia":"LUNES","inicio":"19:00","fin":"21:00","curso":"4","semestre":"1"},
+  {"asignatura":"CN*","grupo":"1","subgrupo":"43","tipo":"TEORÍA","dia":"LUNES","inicio":"19:00","fin":"21:00","curso":"4","semestre":"1"},
+
+
+
+
+  {"asignatura":"IC*","grupo":"1","subgrupo":"41","tipo":"TEORÍA","dia":"MARTES","inicio":"14:00","fin":"15:00","curso":"4","semestre":"1"},
+
+  {"asignatura":"SRA*","grupo":"1","subgrupo":"41","tipo":"TEORÍA","dia":"MARTES","inicio":"15:00","fin":"16:00","curso":"4","semestre":"1"},
+  {"asignatura":"SRA*","grupo":"1","subgrupo":"42","tipo":"TEORÍA","dia":"MARTES","inicio":"15:00","fin":"16:00","curso":"4","semestre":"1"},
+
+  {"asignatura":"PAMN*","grupo":"1","subgrupo":"41","tipo":"TEORÍA","dia":"MARTES","inicio":"16:00","fin":"18:00","curso":"4","semestre":"1"},
+  {"asignatura":"PAMN*","grupo":"1","subgrupo":"42","tipo":"TEORÍA","dia":"MARTES","inicio":"16:00","fin":"18:00","curso":"4","semestre":"1"},
+
+  {"asignatura":"VC*","grupo":"1","subgrupo":"41","tipo":"TEORÍA","dia":"MARTES","inicio":"18:00","fin":"19:00","curso":"4","semestre":"1"},
+  {"asignatura":"VC*","grupo":"1","subgrupo":"42","tipo":"TEORÍA","dia":"MARTES","inicio":"18:00","fin":"19:00","curso":"4","semestre":"1"},
+  {"asignatura":"VC*","grupo":"1","subgrupo":"43","tipo":"TEORÍA","dia":"MARTES","inicio":"18:00","fin":"19:00","curso":"4","semestre":"1"},
+
+  {"asignatura":"SIO*","grupo":"1","subgrupo":"41","tipo":"TEORÍA","dia":"MARTES","inicio":"19:00","fin":"20:00","curso":"4","semestre":"1"},
+
+  {"asignatura":"SIO*","grupo":"1","subgrupo":"41","tipo":"PRÁCTICAS AULA","dia":"MARTES","inicio":"20:00","fin":"21:00","curso":"4","semestre":"1"},
+  
+
+
+  
+  {"asignatura":"IC*","grupo":"1","subgrupo":"41","tipo":"PRÁCTICAS","dia":"MIÉRCOLES","inicio":"14:00","fin":"16:00","curso":"4","semestre":"1"},
+  {"asignatura":"VC*","grupo":"1","subgrupo":"43","tipo":"PRÁCTICAS","dia":"MIÉRCOLES","inicio":"14:00","fin":"16:00","curso":"4","semestre":"1"},
+  {"asignatura":"ECEBT*","grupo":"1","subgrupo":"42","tipo":"PRÁCTICAS","dia":"MIÉRCOLES","inicio":"15:00","fin":"16:00","curso":"4","semestre":"1"},
+  {"asignatura":"SRA*","grupo":"1","subgrupo":"41","tipo":"TEORÍA","dia":"MIÉRCOLES","inicio":"16:00","fin":"17:00","curso":"4","semestre":"1"},
+  {"asignatura":"SRA*","grupo":"1","subgrupo":"42","tipo":"TEORÍA","dia":"MIÉRCOLES","inicio":"16:00","fin":"17:00","curso":"4","semestre":"1"},
+  
+  {"asignatura":"IG*","grupo":"1","subgrupo":"41","tipo":"TEORÍA","dia":"MIÉRCOLES","inicio":"17:00","fin":"18:00","curso":"4","semestre":"1"},
+  {"asignatura":"IG*","grupo":"1","subgrupo":"42","tipo":"TEORÍA","dia":"MIÉRCOLES","inicio":"17:00","fin":"18:00","curso":"4","semestre":"1"},
+
+  {"asignatura":"ECEBT*","grupo":"1","subgrupo":"41","tipo":"PRÁCTICAS AULA","dia":"MIÉRCOLES","inicio":"18:00","fin":"19:00","curso":"4","semestre":"1"},
+  {"asignatura":"ECEBT*","grupo":"1","subgrupo":"42","tipo":"PRÁCTICAS AULA","dia":"MIÉRCOLES","inicio":"18:00","fin":"19:00","curso":"4","semestre":"1"},
+  
+  {"asignatura":"ECEBT*","grupo":"1","subgrupo":"41","tipo":"PRÁCTICAS","dia":"MIÉRCOLES","inicio":"19:00","fin":"20:00","curso":"4","semestre":"1"},
+  {"asignatura":"CN*","grupo":"1","subgrupo":"43","tipo":"PRÁCTICAS","dia":"MIÉRCOLES","inicio":"19:00","fin":"21:00","curso":"4","semestre":"1"},
+
+
+
+
+  {"asignatura":"VC*","grupo":"1","subgrupo":"41","tipo":"PRÁCTICAS","dia":"JUEVES","inicio":"15:00","fin":"17:00","curso":"4","semestre":"1"},
+  {"asignatura":"CN*","grupo":"1","subgrupo":"41","tipo":"PRÁCTICAS","dia":"JUEVES","inicio":"17:00","fin":"19:00","curso":"4","semestre":"1"},
+  {"asignatura":"PAMN*","grupo":"1","subgrupo":"41","tipo":"PRÁCTICAS","dia":"JUEVES","inicio":"19:00","fin":"21:00","curso":"4","semestre":"1"},
+  {"asignatura":"IG*","grupo":"1","subgrupo":"42","tipo":"PRÁCTICAS","dia":"JUEVES","inicio":"15:00","fin":"17:00","curso":"4","semestre":"1"},
+  {"asignatura":"VC*","grupo":"1","subgrupo":"42","tipo":"PRÁCTICAS","dia":"JUEVES","inicio":"17:00","fin":"19:00","curso":"4","semestre":"1"},
+  {"asignatura":"CN*","grupo":"1","subgrupo":"42","tipo":"PRÁCTICAS","dia":"JUEVES","inicio":"19:00","fin":"21:00","curso":"4","semestre":"1"},
+
+
+
+
+  {"asignatura":"SIO*","grupo":"1","subgrupo":"41","tipo":"PRÁCTICAS","dia":"VIERNES","inicio":"15:00","fin":"17:00","curso":"4","semestre":"1"},
+  {"asignatura":"IG*","grupo":"1","subgrupo":"41","tipo":"PRÁCTICAS","dia":"VIERNES","inicio":"17:00","fin":"19:00","curso":"4","semestre":"1"},
+  {"asignatura":"SRA*","grupo":"1","subgrupo":"41","tipo":"PRÁCTICAS","dia":"VIERNES","inicio":"19:00","fin":"21:00","curso":"4","semestre":"1"},
+  {"asignatura":"PAMN*","grupo":"1","subgrupo":"42","tipo":"PRÁCTICAS","dia":"VIERNES","inicio":"15:00","fin":"17:00","curso":"4","semestre":"1"},
+  {"asignatura":"SRA*","grupo":"1","subgrupo":"42","tipo":"PRÁCTICAS","dia":"VIERNES","inicio":"17:00","fin":"19:00","curso":"4","semestre":"1"},
+  
+  
+
+  
+  
+  
+  
+   {"asignatura":"AC","grupo":"1","subgrupo":"41","tipo":"PRÁCTICAS","dia":"LUNES","inicio":"15:00","fin":"17:00","curso":"2","semestre":"2"},
+  {"asignatura":"FSO","grupo":"1","subgrupo":"41","tipo":"PRÁCTICAS","dia":"LUNES","inicio":"17:00","fin":"19:00","curso":"2","semestre":"2"},
+  {"asignatura":"EDP","grupo":"1","subgrupo":"41","tipo":"PRÁCTICAS","dia":"LUNES","inicio":"19:00","fin":"21:00","curso":"2","semestre":"2"},
+  {"asignatura":"BD1","grupo":"1","subgrupo":"42","tipo":"PRÁCTICAS","dia":"LUNES","inicio":"15:00","fin":"17:00","curso":"2","semestre":"2"},
+  {"asignatura":"FSO","grupo":"1","subgrupo":"42","tipo":"PRÁCTICAS","dia":"LUNES","inicio":"17:00","fin":"19:00","curso":"2","semestre":"2"},
+  {"asignatura":"EDP","grupo":"1","subgrupo":"42","tipo":"PRÁCTICAS","dia":"LUNES","inicio":"19:00","fin":"21:00","curso":"2","semestre":"2"},
+   {"asignatura":"MN","grupo":"1","subgrupo":"43","tipo":"PRÁCTICAS","dia":"LUNES","inicio":"15:00","fin":"17:00","curso":"2","semestre":"2"},
+  {"asignatura":"BD1","grupo":"1","subgrupo":"43","tipo":"PRÁCTICAS","dia":"LUNES","inicio":"17:00","fin":"19:00","curso":"2","semestre":"2"},
+  {"asignatura":"FSO","grupo":"1","subgrupo":"43","tipo":"PRÁCTICAS","dia":"LUNES","inicio":"19:00","fin":"21:00","curso":"2","semestre":"2"},
+   {"asignatura":"MN","grupo":"1","subgrupo":"44","tipo":"PRÁCTICAS","dia":"LUNES","inicio":"15:00","fin":"17:00","curso":"2","semestre":"2"},
+  {"asignatura":"BD1","grupo":"1","subgrupo":"44","tipo":"PRÁCTICAS","dia":"LUNES","inicio":"17:00","fin":"19:00","curso":"2","semestre":"2"},
+  {"asignatura":"FSO","grupo":"1","subgrupo":"44","tipo":"PRÁCTICAS","dia":"LUNES","inicio":"19:00","fin":"21:00","curso":"2","semestre":"2"},
+  
+ 
+ 
+  
+  {"asignatura":"BD1","grupo":"1","subgrupo":"41","tipo":"TEORÍA","dia":"MARTES","inicio":"15:00","fin":"17:00","curso":"2","semestre":"2"},
+  {"asignatura":"BD1","grupo":"1","subgrupo":"42","tipo":"TEORÍA","dia":"MARTES","inicio":"15:00","fin":"17:00","curso":"2","semestre":"2"},
+  {"asignatura":"BD1","grupo":"1","subgrupo":"43","tipo":"TEORÍA","dia":"MARTES","inicio":"15:00","fin":"17:00","curso":"2","semestre":"2"},
+  {"asignatura":"BD1","grupo":"1","subgrupo":"44","tipo":"TEORÍA","dia":"MARTES","inicio":"15:00","fin":"17:00","curso":"2","semestre":"2"},
+  {"asignatura":"AC","grupo":"1","subgrupo":"41","tipo":"TEORÍA","dia":"MARTES","inicio":"17:00","fin":"18:00","curso":"2","semestre":"2"},
+  {"asignatura":"AC","grupo":"1","subgrupo":"42","tipo":"TEORÍA","dia":"MARTES","inicio":"17:00","fin":"18:00","curso":"2","semestre":"2"},
+  {"asignatura":"AC","grupo":"1","subgrupo":"43","tipo":"TEORÍA","dia":"MARTES","inicio":"17:00","fin":"18:00","curso":"2","semestre":"2"},
+  {"asignatura":"AC","grupo":"1","subgrupo":"44","tipo":"TEORÍA","dia":"MARTES","inicio":"17:00","fin":"18:00","curso":"2","semestre":"2"},
+  {"asignatura":"FSO","grupo":"1","subgrupo":"41","tipo":"TEORÍA","dia":"MARTES","inicio":"18:00","fin":"19:00","curso":"2","semestre":"2"},
+  {"asignatura":"FSO","grupo":"1","subgrupo":"42","tipo":"TEORÍA","dia":"MARTES","inicio":"18:00","fin":"19:00","curso":"2","semestre":"2"},
+  {"asignatura":"FSO","grupo":"1","subgrupo":"43","tipo":"TEORÍA","dia":"MARTES","inicio":"18:00","fin":"19:00","curso":"2","semestre":"2"},
+  {"asignatura":"FSO","grupo":"1","subgrupo":"44","tipo":"TEORÍA","dia":"MARTES","inicio":"18:00","fin":"19:00","curso":"2","semestre":"2"},
+  {"asignatura":"EDP","grupo":"1","subgrupo":"41","tipo":"TEORÍA","dia":"MARTES","inicio":"19:00","fin":"20:00","curso":"2","semestre":"2"},
+  {"asignatura":"EDP","grupo":"1","subgrupo":"42","tipo":"TEORÍA","dia":"MARTES","inicio":"19:00","fin":"20:00","curso":"2","semestre":"2"},
+  {"asignatura":"EDP","grupo":"1","subgrupo":"43","tipo":"TEORÍA","dia":"MARTES","inicio":"19:00","fin":"20:00","curso":"2","semestre":"2"},
+  {"asignatura":"EDP","grupo":"1","subgrupo":"44","tipo":"TEORÍA","dia":"MARTES","inicio":"19:00","fin":"20:00","curso":"2","semestre":"2"},
+  {"asignatura":"MN","grupo":"1","subgrupo":"41","tipo":"TEORÍA","dia":"MARTES","inicio":"20:00","fin":"21:00","curso":"2","semestre":"2"},
+  {"asignatura":"MN","grupo":"1","subgrupo":"42","tipo":"TEORÍA","dia":"MARTES","inicio":"20:00","fin":"21:00","curso":"2","semestre":"2"},
+  {"asignatura":"MN","grupo":"1","subgrupo":"43","tipo":"TEORÍA","dia":"MARTES","inicio":"20:00","fin":"21:00","curso":"2","semestre":"2"},
+  {"asignatura":"MN","grupo":"1","subgrupo":"44","tipo":"TEORÍA","dia":"MARTES","inicio":"20:00","fin":"21:00","curso":"2","semestre":"2"},
+
+  {"asignatura":"BD1","grupo":"2","subgrupo":"45","tipo":"PRÁCTICAS","dia":"MARTES","inicio":"15:00","fin":"17:00","curso":"2","semestre":"2"},
+  {"asignatura":"EDP","grupo":"2","subgrupo":"45","tipo":"PRÁCTICAS","dia":"MARTES","inicio":"17:00","fin":"19:00","curso":"2","semestre":"2"},
+  {"asignatura":"FSO","grupo":"2","subgrupo":"45","tipo":"PRÁCTICAS","dia":"MARTES","inicio":"19:00","fin":"21:00","curso":"2","semestre":"2"},
+  {"asignatura":"AC","grupo":"2","subgrupo":"46","tipo":"PRÁCTICAS","dia":"MARTES","inicio":"15:00","fin":"17:00","curso":"2","semestre":"2"},
+  {"asignatura":"BD1","grupo":"2","subgrupo":"46","tipo":"PRÁCTICAS","dia":"MARTES","inicio":"17:00","fin":"19:00","curso":"2","semestre":"2"},
+  {"asignatura":"FSO","grupo":"2","subgrupo":"46","tipo":"PRÁCTICAS","dia":"MARTES","inicio":"19:00","fin":"21:00","curso":"2","semestre":"2"},
+  {"asignatura":"EDP","grupo":"2","subgrupo":"47","tipo":"PRÁCTICAS","dia":"MARTES","inicio":"15:00","fin":"17:00","curso":"2","semestre":"2"},
+  {"asignatura":"MN","grupo":"2","subgrupo":"47","tipo":"PRÁCTICAS","dia":"MARTES","inicio":"17:00","fin":"19:00","curso":"2","semestre":"2"},
+  {"asignatura":"AC","grupo":"2","subgrupo":"47","tipo":"PRÁCTICAS","dia":"MARTES","inicio":"19:00","fin":"21:00","curso":"2","semestre":"2"},
+
+  
+
+
+  {"asignatura":"MN","grupo":"1","subgrupo":"41","tipo":"TEORÍA","dia":"MIÉRCOLES","inicio":"15:00","fin":"16:00","curso":"2","semestre":"2"},
+  {"asignatura":"MN","grupo":"1","subgrupo":"42","tipo":"TEORÍA","dia":"MIÉRCOLES","inicio":"15:00","fin":"16:00","curso":"2","semestre":"2"},
+  {"asignatura":"MN","grupo":"1","subgrupo":"43","tipo":"TEORÍA","dia":"MIÉRCOLES","inicio":"15:00","fin":"16:00","curso":"2","semestre":"2"},
+  {"asignatura":"MN","grupo":"1","subgrupo":"44","tipo":"TEORÍA","dia":"MIÉRCOLES","inicio":"15:00","fin":"16:00","curso":"2","semestre":"2"},
+  {"asignatura":"EDP","grupo":"1","subgrupo":"41","tipo":"TEORÍA","dia":"MIÉRCOLES","inicio":"16:00","fin":"17:00","curso":"2","semestre":"2"},
+  {"asignatura":"EDP","grupo":"1","subgrupo":"42","tipo":"TEORÍA","dia":"MIÉRCOLES","inicio":"16:00","fin":"17:00","curso":"2","semestre":"2"},
+  {"asignatura":"EDP","grupo":"1","subgrupo":"43","tipo":"TEORÍA","dia":"MIÉRCOLES","inicio":"16:00","fin":"17:00","curso":"2","semestre":"2"},
+  {"asignatura":"EDP","grupo":"1","subgrupo":"44","tipo":"TEORÍA","dia":"MIÉRCOLES","inicio":"16:00","fin":"17:00","curso":"2","semestre":"2"},
+  {"asignatura":"FSO","grupo":"1","subgrupo":"41","tipo":"TEORÍA","dia":"MIÉRCOLES","inicio":"17:00","fin":"18:00","curso":"2","semestre":"2"},
+  {"asignatura":"FSO","grupo":"1","subgrupo":"42","tipo":"TEORÍA","dia":"MIÉRCOLES","inicio":"17:00","fin":"18:00","curso":"2","semestre":"2"},
+  {"asignatura":"FSO","grupo":"1","subgrupo":"43","tipo":"TEORÍA","dia":"MIÉRCOLES","inicio":"17:00","fin":"18:00","curso":"2","semestre":"2"},
+  {"asignatura":"FSO","grupo":"1","subgrupo":"44","tipo":"TEORÍA","dia":"MIÉRCOLES","inicio":"17:00","fin":"18:00","curso":"2","semestre":"2"},
+  {"asignatura":"AC","grupo":"1","subgrupo":"41","tipo":"TEORÍA","dia":"MIÉRCOLES","inicio":"18:00","fin":"19:00","curso":"2","semestre":"2"},
+  {"asignatura":"AC","grupo":"1","subgrupo":"42","tipo":"TEORÍA","dia":"MIÉRCOLES","inicio":"18:00","fin":"19:00","curso":"2","semestre":"2"},
+  {"asignatura":"AC","grupo":"1","subgrupo":"43","tipo":"TEORÍA","dia":"MIÉRCOLES","inicio":"18:00","fin":"19:00","curso":"2","semestre":"2"},
+  {"asignatura":"AC","grupo":"1","subgrupo":"44","tipo":"TEORÍA","dia":"MIÉRCOLES","inicio":"18:00","fin":"19:00","curso":"2","semestre":"2"},
+  
+  {"asignatura":"AC","grupo":"2","subgrupo":"45","tipo":"PRÁCTICAS","dia":"MIÉRCOLES","inicio":"15:00","fin":"17:00","curso":"2","semestre":"2"},
+  {"asignatura":"MN","grupo":"2","subgrupo":"45","tipo":"PRÁCTICAS","dia":"MIÉRCOLES","inicio":"17:00","fin":"19:00","curso":"2","semestre":"2"},
+  {"asignatura":"EDP","grupo":"2","subgrupo":"46","tipo":"PRÁCTICAS","dia":"MIÉRCOLES","inicio":"17:00","fin":"19:00","curso":"2","semestre":"2"},
+  {"asignatura":"MN","grupo":"2","subgrupo":"46","tipo":"PRÁCTICAS","dia":"MIÉRCOLES","inicio":"19:00","fin":"21:00","curso":"2","semestre":"2"},
+  {"asignatura":"FSO","grupo":"2","subgrupo":"47","tipo":"PRÁCTICAS","dia":"MIÉRCOLES","inicio":"15:00","fin":"17:00","curso":"2","semestre":"2"},
+  {"asignatura":"BD1","grupo":"2","subgrupo":"47","tipo":"PRÁCTICAS","dia":"MIÉRCOLES","inicio":"17:00","fin":"19:00","curso":"2","semestre":"2"},
+
+
+
+  
+  {"asignatura":"MN","grupo":"1","subgrupo":"41","tipo":"PRÁCTICAS","dia":"JUEVES","inicio":"15:00","fin":"17:00","curso":"2","semestre":"2"},
+  {"asignatura":"BD1","grupo":"1","subgrupo":"41","tipo":"PRÁCTICAS","dia":"JUEVES","inicio":"17:00","fin":"19:00","curso":"2","semestre":"2"},
+  {"asignatura":"MN","grupo":"1","subgrupo":"42","tipo":"PRÁCTICAS","dia":"JUEVES","inicio":"17:00","fin":"19:00","curso":"2","semestre":"2"},
+  {"asignatura":"AC","grupo":"1","subgrupo":"42","tipo":"PRÁCTICAS","dia":"JUEVES","inicio":"19:00","fin":"21:00","curso":"2","semestre":"2"},
+  {"asignatura":"EDP","grupo":"1","subgrupo":"43","tipo":"PRÁCTICAS","dia":"JUEVES","inicio":"15:00","fin":"17:00","curso":"2","semestre":"2"},
+  {"asignatura":"AC","grupo":"1","subgrupo":"43","tipo":"PRÁCTICAS","dia":"JUEVES","inicio":"17:00","fin":"19:00","curso":"2","semestre":"2"},
+  {"asignatura":"AC","grupo":"1","subgrupo":"44","tipo":"PRÁCTICAS","dia":"JUEVES","inicio":"15:00","fin":"17:00","curso":"2","semestre":"2"},
+  {"asignatura":"EDP","grupo":"1","subgrupo":"44","tipo":"PRÁCTICAS","dia":"JUEVES","inicio":"17:00","fin":"19:00","curso":"2","semestre":"2"},
+
+  {"asignatura":"MN","grupo":"2","subgrupo":"45","tipo":"TEORÍA","dia":"JUEVES","inicio":"15:00","fin":"16:00","curso":"2","semestre":"2"},
+  {"asignatura":"MN","grupo":"2","subgrupo":"46","tipo":"TEORÍA","dia":"JUEVES","inicio":"15:00","fin":"16:00","curso":"2","semestre":"2"},
+  {"asignatura":"MN","grupo":"2","subgrupo":"47","tipo":"TEORÍA","dia":"JUEVES","inicio":"15:00","fin":"16:00","curso":"2","semestre":"2"},
+  {"asignatura":"FSO","grupo":"2","subgrupo":"45","tipo":"TEORÍA","dia":"JUEVES","inicio":"16:00","fin":"17:00","curso":"2","semestre":"2"},
+  {"asignatura":"FSO","grupo":"2","subgrupo":"46","tipo":"TEORÍA","dia":"JUEVES","inicio":"16:00","fin":"17:00","curso":"2","semestre":"2"},
+  {"asignatura":"FSO","grupo":"2","subgrupo":"47","tipo":"TEORÍA","dia":"JUEVES","inicio":"16:00","fin":"17:00","curso":"2","semestre":"2"},
+  {"asignatura":"AC","grupo":"2","subgrupo":"45","tipo":"TEORÍA","dia":"JUEVES","inicio":"17:00","fin":"18:00","curso":"2","semestre":"2"},
+  {"asignatura":"AC","grupo":"2","subgrupo":"46","tipo":"TEORÍA","dia":"JUEVES","inicio":"17:00","fin":"18:00","curso":"2","semestre":"2"},
+  {"asignatura":"AC","grupo":"2","subgrupo":"47","tipo":"TEORÍA","dia":"JUEVES","inicio":"17:00","fin":"18:00","curso":"2","semestre":"2"},
+  {"asignatura":"EDP","grupo":"2","subgrupo":"45","tipo":"TEORÍA","dia":"JUEVES","inicio":"18:00","fin":"19:00","curso":"2","semestre":"2"},
+  {"asignatura":"EDP","grupo":"2","subgrupo":"46","tipo":"TEORÍA","dia":"JUEVES","inicio":"18:00","fin":"19:00","curso":"2","semestre":"2"},
+  {"asignatura":"EDP","grupo":"2","subgrupo":"47","tipo":"TEORÍA","dia":"JUEVES","inicio":"18:00","fin":"19:00","curso":"2","semestre":"2"},
+  {"asignatura":"BD1","grupo":"2","subgrupo":"45","tipo":"TEORÍA","dia":"JUEVES","inicio":"19:00","fin":"21:00","curso":"2","semestre":"2"},
+  {"asignatura":"BD1","grupo":"2","subgrupo":"46","tipo":"TEORÍA","dia":"JUEVES","inicio":"19:00","fin":"21:00","curso":"2","semestre":"2"},
+  {"asignatura":"BD1","grupo":"2","subgrupo":"47","tipo":"TEORÍA","dia":"JUEVES","inicio":"19:00","fin":"21:00","curso":"2","semestre":"2"},
+
+
+  
+  
+  {"asignatura":"EDP","grupo":"2","subgrupo":"45","tipo":"TEORÍA","dia":"VIERNES","inicio":"15:00","fin":"16:00","curso":"2","semestre":"2"},
+  {"asignatura":"EDP","grupo":"2","subgrupo":"46","tipo":"TEORÍA","dia":"VIERNES","inicio":"15:00","fin":"16:00","curso":"2","semestre":"2"},
+  {"asignatura":"EDP","grupo":"2","subgrupo":"47","tipo":"TEORÍA","dia":"VIERNES","inicio":"15:00","fin":"16:00","curso":"2","semestre":"2"},
+  {"asignatura":"FSO","grupo":"2","subgrupo":"45","tipo":"TEORÍA","dia":"VIERNES","inicio":"16:00","fin":"17:00","curso":"2","semestre":"2"},
+  {"asignatura":"FSO","grupo":"2","subgrupo":"46","tipo":"TEORÍA","dia":"VIERNES","inicio":"16:00","fin":"17:00","curso":"2","semestre":"2"},
+  {"asignatura":"FSO","grupo":"2","subgrupo":"47","tipo":"TEORÍA","dia":"VIERNES","inicio":"16:00","fin":"17:00","curso":"2","semestre":"2"},
+  {"asignatura":"AC","grupo":"2","subgrupo":"45","tipo":"TEORÍA","dia":"VIERNES","inicio":"17:00","fin":"18:00","curso":"2","semestre":"2"},
+  {"asignatura":"AC","grupo":"2","subgrupo":"46","tipo":"TEORÍA","dia":"VIERNES","inicio":"17:00","fin":"18:00","curso":"2","semestre":"2"},
+  {"asignatura":"AC","grupo":"2","subgrupo":"47","tipo":"TEORÍA","dia":"VIERNES","inicio":"17:00","fin":"18:00","curso":"2","semestre":"2"},
+  {"asignatura":"MN","grupo":"2","subgrupo":"45","tipo":"TEORÍA","dia":"VIERNES","inicio":"18:00","fin":"19:00","curso":"2","semestre":"2"},
+  {"asignatura":"MN","grupo":"2","subgrupo":"46","tipo":"TEORÍA","dia":"VIERNES","inicio":"18:00","fin":"19:00","curso":"2","semestre":"2"},
+  {"asignatura":"MN","grupo":"2","subgrupo":"47","tipo":"TEORÍA","dia":"VIERNES","inicio":"18:00","fin":"19:00","curso":"2","semestre":"2"},
+  
+
+  
+  
+  {"asignatura":"VPD","grupo":"1","subgrupo":"41","tipo":"PRÁCTICAS","dia":"LUNES","inicio":"15:00","fin":"17:00","curso":"3","semestre":"2"},
+  {"asignatura":"PS","grupo":"1","subgrupo":"41","tipo":"PRÁCTICAS","dia":"LUNES","inicio":"17:00","fin":"19:00","curso":"3","semestre":"2"},
+  {"asignatura":"PWM","grupo":"1","subgrupo":"41","tipo":"PRÁCTICAS","dia":"LUNES","inicio":"19:00","fin":"21:00","curso":"3","semestre":"2"},
+  {"asignatura":"PWM","grupo":"1","subgrupo":"42","tipo":"PRÁCTICAS","dia":"LUNES","inicio":"15:00","fin":"17:00","curso":"3","semestre":"2"},
+  {"asignatura":"ASR","grupo":"1","subgrupo":"42","tipo":"PRÁCTICAS","dia":"LUNES","inicio":"17:00","fin":"19:00","curso":"3","semestre":"2"},
+  {"asignatura":"PS","grupo":"1","subgrupo":"42","tipo":"PRÁCTICAS","dia":"LUNES","inicio":"19:00","fin":"21:00","curso":"3","semestre":"2"},
+  {"asignatura":"PS","grupo":"1","subgrupo":"43","tipo":"PRÁCTICAS","dia":"LUNES","inicio":"15:00","fin":"17:00","curso":"3","semestre":"2"},
+  {"asignatura":"PWM","grupo":"1","subgrupo":"43","tipo":"PRÁCTICAS","dia":"LUNES","inicio":"17:00","fin":"19:00","curso":"3","semestre":"2"},
+  {"asignatura":"ASR","grupo":"1","subgrupo":"43","tipo":"PRÁCTICAS","dia":"LUNES","inicio":"19:00","fin":"21:00","curso":"3","semestre":"2"},
+  {"asignatura":"VPD","grupo":"1","subgrupo":"45","tipo":"PRÁCTICAS","dia":"LUNES","inicio":"17:00","fin":"19:00","curso":"3","semestre":"2"},
+  {"asignatura":"PWM","grupo":"1","subgrupo":"45","tipo":"PRÁCTICAS","dia":"LUNES","inicio":"19:00","fin":"21:00","curso":"3","semestre":"2"},
+
+  
+
+  
+  {"asignatura":"ASR","grupo":"1","subgrupo":"41","tipo":"PRÁCTICAS","dia":"MARTES","inicio":"15:00","fin":"17:00","curso":"3","semestre":"2"},
+  {"asignatura":"PWM","grupo":"1","subgrupo":"41","tipo":"PRÁCTICAS","dia":"MARTES","inicio":"17:00","fin":"19:00","curso":"3","semestre":"2"},
+  {"asignatura":"PS","grupo":"1","subgrupo":"41","tipo":"PRÁCTICAS","dia":"MARTES","inicio":"19:00","fin":"21:00","curso":"3","semestre":"2"},
+  {"asignatura":"VPD","grupo":"1","subgrupo":"42","tipo":"PRÁCTICAS","dia":"MARTES","inicio":"15:00","fin":"17:00","curso":"3","semestre":"2"},
+  {"asignatura":"PS","grupo":"1","subgrupo":"42","tipo":"PRÁCTICAS","dia":"MARTES","inicio":"17:00","fin":"19:00","curso":"3","semestre":"2"},
+  {"asignatura":"PWM","grupo":"1","subgrupo":"42","tipo":"PRÁCTICAS","dia":"MARTES","inicio":"19:00","fin":"21:00","curso":"3","semestre":"2"},
+  {"asignatura":"PS","grupo":"1","subgrupo":"44","tipo":"PRÁCTICAS","dia":"MARTES","inicio":"15:00","fin":"17:00","curso":"3","semestre":"2"},
+  {"asignatura":"PWM","grupo":"1","subgrupo":"44","tipo":"PRÁCTICAS","dia":"MARTES","inicio":"17:00","fin":"19:00","curso":"3","semestre":"2"},
+  {"asignatura":"VPD","grupo":"1","subgrupo":"44","tipo":"PRÁCTICAS","dia":"MARTES","inicio":"19:00","fin":"21:00","curso":"3","semestre":"2"},
+  {"asignatura":"PWM","grupo":"1","subgrupo":"45","tipo":"PRÁCTICAS","dia":"MARTES","inicio":"15:00","fin":"17:00","curso":"3","semestre":"2"},
+  
+
+
+  
+  {"asignatura":"ASR","grupo":"1","subgrupo":"41","tipo":"TEORÍA","dia":"MIÉRCOLES","inicio":"15:00","fin":"16:00","curso":"3","semestre":"2"},
+  {"asignatura":"ASR","grupo":"1","subgrupo":"42","tipo":"TEORÍA","dia":"MIÉRCOLES","inicio":"15:00","fin":"16:00","curso":"3","semestre":"2"},
+  {"asignatura":"ASR","grupo":"1","subgrupo":"43","tipo":"TEORÍA","dia":"MIÉRCOLES","inicio":"15:00","fin":"16:00","curso":"3","semestre":"2"},
+  {"asignatura":"ASR","grupo":"1","subgrupo":"44","tipo":"TEORÍA","dia":"MIÉRCOLES","inicio":"15:00","fin":"16:00","curso":"3","semestre":"2"},
+  {"asignatura":"ASR","grupo":"1","subgrupo":"45","tipo":"TEORÍA","dia":"MIÉRCOLES","inicio":"15:00","fin":"16:00","curso":"3","semestre":"2"},
+	
+  {"asignatura":"PS","grupo":"1","subgrupo":"41","tipo":"TEORÍA","dia":"MIÉRCOLES","inicio":"16:00","fin":"17:00","curso":"3","semestre":"2"},
+  {"asignatura":"PS","grupo":"1","subgrupo":"42","tipo":"TEORÍA","dia":"MIÉRCOLES","inicio":"16:00","fin":"17:00","curso":"3","semestre":"2"},
+  {"asignatura":"PS","grupo":"1","subgrupo":"43","tipo":"TEORÍA","dia":"MIÉRCOLES","inicio":"16:00","fin":"17:00","curso":"3","semestre":"2"},
+  {"asignatura":"PS","grupo":"1","subgrupo":"44","tipo":"TEORÍA","dia":"MIÉRCOLES","inicio":"16:00","fin":"17:00","curso":"3","semestre":"2"},
+  {"asignatura":"PS","grupo":"1","subgrupo":"45","tipo":"TEORÍA","dia":"MIÉRCOLES","inicio":"16:00","fin":"17:00","curso":"3","semestre":"2"},
+  
+  {"asignatura":"PWM","grupo":"1","subgrupo":"41","tipo":"TEORÍA","dia":"MIÉRCOLES","inicio":"17:00","fin":"18:00","curso":"3","semestre":"2"},
+  {"asignatura":"PWM","grupo":"1","subgrupo":"42","tipo":"TEORÍA","dia":"MIÉRCOLES","inicio":"17:00","fin":"18:00","curso":"3","semestre":"2"},
+  {"asignatura":"PWM","grupo":"1","subgrupo":"43","tipo":"TEORÍA","dia":"MIÉRCOLES","inicio":"17:00","fin":"18:00","curso":"3","semestre":"2"},
+  {"asignatura":"PWM","grupo":"1","subgrupo":"44","tipo":"TEORÍA","dia":"MIÉRCOLES","inicio":"17:00","fin":"18:00","curso":"3","semestre":"2"},
+  {"asignatura":"PWM","grupo":"1","subgrupo":"45","tipo":"TEORÍA","dia":"MIÉRCOLES","inicio":"17:00","fin":"18:00","curso":"3","semestre":"2"},
+  
+  {"asignatura":"VPD","grupo":"1","subgrupo":"41","tipo":"TEORÍA","dia":"MIÉRCOLES","inicio":"18:00","fin":"19:00","curso":"3","semestre":"2"},
+  {"asignatura":"VPD","grupo":"1","subgrupo":"42","tipo":"TEORÍA","dia":"MIÉRCOLES","inicio":"18:00","fin":"19:00","curso":"3","semestre":"2"},
+  {"asignatura":"VPD","grupo":"1","subgrupo":"43","tipo":"TEORÍA","dia":"MIÉRCOLES","inicio":"18:00","fin":"19:00","curso":"3","semestre":"2"},
+  {"asignatura":"VPD","grupo":"1","subgrupo":"44","tipo":"TEORÍA","dia":"MIÉRCOLES","inicio":"18:00","fin":"19:00","curso":"3","semestre":"2"},
+  {"asignatura":"VPD","grupo":"1","subgrupo":"45","tipo":"TEORÍA","dia":"MIÉRCOLES","inicio":"18:00","fin":"19:00","curso":"3","semestre":"2"},
+  
+  {"asignatura":"PS","grupo":"1","subgrupo":"45","tipo":"PRÁCTICAS","dia":"MIÉRCOLES","inicio":"19:00","fin":"21:00","curso":"3","semestre":"2"},
+  
+  
+  
+  {"asignatura":"PS","grupo":"1","subgrupo":"41","tipo":"TEORÍA","dia":"JUEVES","inicio":"16:00","fin":"17:00","curso":"3","semestre":"2"},
+  {"asignatura":"PS","grupo":"1","subgrupo":"42","tipo":"TEORÍA","dia":"JUEVES","inicio":"16:00","fin":"17:00","curso":"3","semestre":"2"},
+  {"asignatura":"PS","grupo":"1","subgrupo":"43","tipo":"TEORÍA","dia":"JUEVES","inicio":"16:00","fin":"17:00","curso":"3","semestre":"2"},
+  {"asignatura":"PS","grupo":"1","subgrupo":"44","tipo":"TEORÍA","dia":"JUEVES","inicio":"16:00","fin":"17:00","curso":"3","semestre":"2"},
+  {"asignatura":"PS","grupo":"1","subgrupo":"45","tipo":"TEORÍA","dia":"JUEVES","inicio":"16:00","fin":"17:00","curso":"3","semestre":"2"},
+  
+  {"asignatura":"PWM","grupo":"1","subgrupo":"41","tipo":"TEORÍA","dia":"JUEVES","inicio":"17:00","fin":"18:00","curso":"3","semestre":"2"},
+  {"asignatura":"PWM","grupo":"1","subgrupo":"42","tipo":"TEORÍA","dia":"JUEVES","inicio":"17:00","fin":"18:00","curso":"3","semestre":"2"},
+  {"asignatura":"PWM","grupo":"1","subgrupo":"43","tipo":"TEORÍA","dia":"JUEVES","inicio":"17:00","fin":"18:00","curso":"3","semestre":"2"},
+  {"asignatura":"PWM","grupo":"1","subgrupo":"44","tipo":"TEORÍA","dia":"JUEVES","inicio":"17:00","fin":"18:00","curso":"3","semestre":"2"},
+  {"asignatura":"PWM","grupo":"1","subgrupo":"45","tipo":"TEORÍA","dia":"JUEVES","inicio":"17:00","fin":"18:00","curso":"3","semestre":"2"},
+  
+  {"asignatura":"ASR","grupo":"1","subgrupo":"41","tipo":"TEORÍA","dia":"JUEVES","inicio":"18:00","fin":"19:00","curso":"3","semestre":"2"},
+  {"asignatura":"ASR","grupo":"1","subgrupo":"42","tipo":"TEORÍA","dia":"JUEVES","inicio":"18:00","fin":"19:00","curso":"3","semestre":"2"},
+  {"asignatura":"ASR","grupo":"1","subgrupo":"43","tipo":"TEORÍA","dia":"JUEVES","inicio":"18:00","fin":"19:00","curso":"3","semestre":"2"},
+  {"asignatura":"ASR","grupo":"1","subgrupo":"44","tipo":"TEORÍA","dia":"JUEVES","inicio":"18:00","fin":"19:00","curso":"3","semestre":"2"},
+  {"asignatura":"ASR","grupo":"1","subgrupo":"45","tipo":"TEORÍA","dia":"JUEVES","inicio":"18:00","fin":"19:00","curso":"3","semestre":"2"},
+  
+  {"asignatura":"VPD","grupo":"1","subgrupo":"41","tipo":"PRÁCTICAS (p)","dia":"JUEVES","inicio":"19:00","fin":"21:00","curso":"3","semestre":"2"},
+  {"asignatura":"VPD","grupo":"1","subgrupo":"42","tipo":"PRÁCTICAS (p)","dia":"JUEVES","inicio":"19:00","fin":"21:00","curso":"3","semestre":"2"},
+  {"asignatura":"VPD","grupo":"1","subgrupo":"43","tipo":"PRÁCTICAS (i)","dia":"JUEVES","inicio":"19:00","fin":"21:00","curso":"3","semestre":"2"},
+  {"asignatura":"VPD","grupo":"1","subgrupo":"44","tipo":"PRÁCTICAS (i)","dia":"JUEVES","inicio":"19:00","fin":"21:00","curso":"3","semestre":"2"},
+  
+  
+  
+  {"asignatura":"PWM","grupo":"1","subgrupo":"43","tipo":"PRÁCTICAS","dia":"VIERNES","inicio":"15:00","fin":"17:00","curso":"3","semestre":"2"},
+  {"asignatura":"PS","grupo":"1","subgrupo":"43","tipo":"PRÁCTICAS","dia":"VIERNES","inicio":"17:00","fin":"19:00","curso":"3","semestre":"2"},
+  {"asignatura":"VPD","grupo":"1","subgrupo":"43","tipo":"PRÁCTICAS","dia":"VIERNES","inicio":"19:00","fin":"21:00","curso":"3","semestre":"2"},
+  {"asignatura":"PS","grupo":"1","subgrupo":"44","tipo":"PRÁCTICAS","dia":"VIERNES","inicio":"15:00","fin":"17:00","curso":"3","semestre":"2"},
+  {"asignatura":"PWM","grupo":"1","subgrupo":"44","tipo":"PRÁCTICAS","dia":"VIERNES","inicio":"17:00","fin":"19:00","curso":"3","semestre":"2"},
+  {"asignatura":"ASR","grupo":"1","subgrupo":"44","tipo":"PRÁCTICAS","dia":"VIERNES","inicio":"19:00","fin":"21:00","curso":"3","semestre":"2"},
+  {"asignatura":"VPD","grupo":"1","subgrupo":"45","tipo":"PRÁCTICAS (p)","dia":"VIERNES","inicio":"15:00","fin":"17:00","curso":"3","semestre":"2"},
+  {"asignatura":"ASR","grupo":"1","subgrupo":"45","tipo":"PRÁCTICAS","dia":"VIERNES","inicio":"17:00","fin":"19:00","curso":"3","semestre":"2"},
+  {"asignatura":"PS","grupo":"1","subgrupo":"45","tipo":"PRÁCTICAS","dia":"VIERNES","inicio":"19:00","fin":"21:00","curso":"3","semestre":"2"},
+  
+  
+  
+  
+  {"asignatura":"PDIGS","grupo":"1","subgrupo":"41","tipo":"TEORÍA","dia":"LUNES","inicio":"17:00","fin":"18:00","curso":"4","semestre":"2"},
+  {"asignatura":"PDIGS","grupo":"1","subgrupo":"42","tipo":"TEORÍA","dia":"LUNES","inicio":"17:00","fin":"18:00","curso":"4","semestre":"2"},
+  {"asignatura":"PDIGS","grupo":"1","subgrupo":"43","tipo":"TEORÍA","dia":"LUNES","inicio":"17:00","fin":"18:00","curso":"4","semestre":"2"},
+  {"asignatura":"PDIGS","grupo":"1","subgrupo":"44","tipo":"TEORÍA","dia":"LUNES","inicio":"17:00","fin":"18:00","curso":"4","semestre":"2"},
+  {"asignatura":"SI","grupo":"1","subgrupo":"41","tipo":"TEORÍA","dia":"LUNES","inicio":"18:00","fin":"20:00","curso":"4","semestre":"2"},
+  {"asignatura":"SI","grupo":"1","subgrupo":"42","tipo":"TEORÍA","dia":"LUNES","inicio":"18:00","fin":"20:00","curso":"4","semestre":"2"},
+  {"asignatura":"SI","grupo":"1","subgrupo":"43","tipo":"TEORÍA","dia":"LUNES","inicio":"18:00","fin":"20:00","curso":"4","semestre":"2"},
+  {"asignatura":"SI","grupo":"1","subgrupo":"44","tipo":"TEORÍA","dia":"LUNES","inicio":"18:00","fin":"20:00","curso":"4","semestre":"2"},
+  {"asignatura":"PDIGS","grupo":"1","subgrupo":"43","tipo":"PRÁCTICAS","dia":"LUNES","inicio":"15:00","fin":"17:00","curso":"4","semestre":"2"},
+
+
+{"asignatura":"PDIGS","grupo":"1","subgrupo":"41","tipo":"PRÁCTICAS AULA","dia":"MARTES","inicio":"15:00","fin":"16:00","curso":"4","semestre":"2"},
+{"asignatura":"PDIGS","grupo":"1","subgrupo":"42","tipo":"PRÁCTICAS AULA","dia":"MARTES","inicio":"15:00","fin":"16:00","curso":"4","semestre":"2"},
+        {"asignatura":"SI","grupo":"1","subgrupo":"41","tipo":"PRÁCTICAS","dia":"MARTES","inicio":"16:00","fin":"18:00","curso":"4","semestre":"2"},
+     {"asignatura":"PDIGS","grupo":"1","subgrupo":"42","tipo":"PRÁCTICAS","dia":"MARTES","inicio":"16:00","fin":"18:00","curso":"4","semestre":"2"},
+     {"asignatura":"PDIGS","grupo":"1","subgrupo":"41","tipo":"PRÁCTICAS","dia":"MARTES","inicio":"18:00","fin":"20:00","curso":"4","semestre":"2"},
+        {"asignatura":"SI","grupo":"1","subgrupo":"42","tipo":"PRÁCTICAS","dia":"MARTES","inicio":"18:00","fin":"20:00","curso":"4","semestre":"2"},
+   
+   
+ {"asignatura":"PDIGS","grupo":"1","subgrupo":"43","tipo":"PRÁCTICAS AULA","dia":"JUEVES","inicio":"15:00","fin":"16:00","curso":"4","semestre":"2"},
+ {"asignatura":"PDIGS","grupo":"1","subgrupo":"44","tipo":"PRÁCTICAS AULA","dia":"JUEVES","inicio":"15:00","fin":"16:00","curso":"4","semestre":"2"},
+         {"asignatura":"SI","grupo":"1","subgrupo":"43","tipo":"PRÁCTICAS","dia":"JUEVES","inicio":"16:00","fin":"18:00","curso":"4","semestre":"2"},
+      {"asignatura":"PDIGS","grupo":"1","subgrupo":"44","tipo":"PRÁCTICAS","dia":"JUEVES","inicio":"16:00","fin":"18:00","curso":"4","semestre":"2"},
+         {"asignatura":"SI","grupo":"1","subgrupo":"44","tipo":"PRÁCTICAS","dia":"JUEVES","inicio":"18:00","fin":"20:00","curso":"4","semestre":"2"},
+		   
+		   
+		   
+{"asignatura":"TFG","grupo":"1","subgrupo":"41","tipo":"TEORÍA","dia":"VIERNES","inicio":"15:00","fin":"21:00","curso":"4","semestre":"2"},
+{"asignatura":"TFG","grupo":"1","subgrupo":"42","tipo":"TEORÍA","dia":"VIERNES","inicio":"15:00","fin":"21:00","curso":"4","semestre":"2"},
+{"asignatura":"TFG","grupo":"1","subgrupo":"43","tipo":"TEORÍA","dia":"VIERNES","inicio":"15:00","fin":"21:00","curso":"4","semestre":"2"},
+{"asignatura":"TFG","grupo":"1","subgrupo":"44","tipo":"TEORÍA","dia":"VIERNES","inicio":"15:00","fin":"21:00","curso":"4","semestre":"2"}
+		   
+
+]
